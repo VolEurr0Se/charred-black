@@ -138,3 +138,18 @@ function getFrameByName(name) {
 
 /**** End Utility ****/
 
+
+// 汉化：translate each item of a list for display (falls back to English if burning-i18n.js is absent).
+function trList(list){
+  var t = (typeof window.tr === 'function') ? window.tr : function(x){ return x; };
+  var out = [];
+  for(var i = 0; i < list.length; i++){
+    out.push(t(list[i]));
+  }
+  return out.join('、');
+}
+if (typeof window.tr !== 'function') { window.tr = function(x){ return x === null || x === undefined ? '' : String(x); }; }
+if (typeof window.trf !== 'function') {
+  window.trf = function(t, p){ var o = window.tr(t); for (var k in (p||{})) o = o.split('{'+k+'}').join(p[k]); return o; };
+}
+if (typeof window.trHasTraitSummary !== 'function') { window.trHasTraitSummary = function(){ return false; }; }

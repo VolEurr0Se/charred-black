@@ -1,3 +1,7 @@
+# 汉化版含中文模板与对照表：强制以 UTF-8 读取文件，避免容器内 locale 为 POSIX 时出现编码错误
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
+
 require 'sinatra'
 require 'sinatra/json'
 require 'json'
@@ -5,6 +9,8 @@ require 'json'
 require_relative 'lib/cache'
 require_relative 'lib/pdf'
 require_relative 'lib/data'
+require_relative 'lib/i18n'
+require 'erb'
 
 use Rack::Logger
 set :bind, ENV['HOST']
@@ -12,11 +18,37 @@ set :port, ENV['PORT']
 
 CACHE = Mu::Cache.new :max_size => 128, :max_time => 30.0
 DATA = Charred::Data.new.data
+I18N = Charred::I18n.new(ENV['CHARRED_LOCALE'] || 'zh-CN')
+I18N_JS = I18N.to_js
 
 helpers do
   def logger
     request.logger
   end
+
+  # 界面文字翻译（找不到时回退英文原文）
+  def t(text)
+    I18N.t(text)
+  end
+
+  # 下载文件名：同时提供 ASCII 回退与 RFC 5987 UTF-8 文件名，避免中文名乱码
+  def attachment_utf8(name)
+    ext = File.extname(name)
+    ascii = name.gsub(/[^\x20-\x7E]/, '').gsub('"', '').strip
+    ascii = "character#{ext}" if ascii.sub(/#{Regexp.escape(ext)}\z/, '').strip.empty?
+    encoded = ERB::Util.url_encode(name)
+    headers['Content-Disposition'] = "attachment; filename=\"#{ascii}\"; filename*=UTF-8''#{encoded}"
+  end
+
+  def download_url(key, filename)
+    "/get_file?file=#{key}&download_name=#{ERB::Util.url_encode(filename)}"
+  end
+end
+
+get '/i18n.js' do
+  content_type 'application/javascript', :charset => 'utf-8'
+  cache_control :public, :max_age => 3600
+  I18N_JS
 end
 
 get '/' do
@@ -29,7 +61,13 @@ end
 
 get /\/([\w]+)_partial/ do
   partial = params['captures'].first
-  erb "partials/#{partial}".to_sym
+  # 有本地化版本的局部模板（如 help_zh.erb）优先使用
+  localized = "partials/#{partial}_zh"
+  if File.exist?(File.join(settings.views, "#{localized}.erb"))
+    erb localized.to_sym
+  else
+    erb "partials/#{partial}".to_sym
+  end
 end
 
 get '/namegen/:gender' do
@@ -79,7 +117,7 @@ post '/charsheet' do
   key = "char-#{Time.now.strftime('%Y%m%d%H%M%S%L')}-#{rand(1...10000)}"
   CACHE.store key, data
 
-  "/get_file?file=#{key}&download_name=#{data['name']} Character Sheet.pdf"
+  download_url(key, "#{data['name']} #{t('Character Sheet')}.pdf")
 end
 
 post '/upload_charfile' do
@@ -94,7 +132,7 @@ post '/download_charfile' do
   key = "char-#{Time.now.strftime('%Y%m%d%H%M%S%L')}-#{rand(1...10000)}"
   CACHE.store key, data
 
-  "/get_file?file=#{key}&download_name=#{data['name']} Character Sheet.char"
+  download_url(key, "#{data['name']} #{t('Character Sheet')}.char")
 end
 
 get '/get_file' do
@@ -110,6 +148,6 @@ get '/get_file' do
     content_type 'application/octet-stream'
     data = JSON.dump CACHE.delete(params['file'])
   end
-  attachment params['download_name']
+  attachment_utf8 params['download_name'].to_s
   data
 end

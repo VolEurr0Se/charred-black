@@ -1,0 +1,17 @@
+{
+  "name": "艾德温·长名字测试者",
+  "age": 27,
+  "stock": "man",
+  "lifepaths": ["Born Noble", "Page", "Squire", "Knight", "Lord Protector", "City Wife"],
+  "stats": {"will": ["B", 4], "perception": ["B", 4], "power": ["B", 5], "forte": ["B", 5], "agility": ["B", 4], "speed": ["B", 4]},
+  "attributes": {"health": ["B", 5], "steel": ["B", 6], "circles": ["B", 3], "resources": ["B", 2], "reflexes": ["B", 4], "mortal wound": ["B", 11], "stride": ["", 7], "hesitation": ["", 6], "greed": ["B", 3]},
+  "skills": [["Sword", "B", 4, false], ["Etiquette", "B", 3, false], ["Riding", "B", 4, false], ["Mounted Combat Training", "B", 0, true], ["Armor Training", "B", 0, true], ["Heraldry", "B", 3, false], ["Brawling", "B", 3, false], ["Village-wise", "B", 2, false], ["Some Custom Thing-wise", "B", 2, false], ["Conspicuous Overly Long Skill Name", "B", 2, false], ["Command", "B", 3, false], ["Intimidation", "B", 3, false], ["Rhetoric", "B", 2, false], ["Strategy", "B", 2, false]],
+  "traits": [["Mark Of Privilege", "character"], ["Your Lordship", "character"], ["Abashed", "character"], ["Aches And Pains", "character"], ["Accustomed To The Dark", "die"], ["Acute", "die"], ["Born To Rule", "call_on"], ["Lucky", "call_on"], ["Iron Nose", "die"], ["Not A Real Trait", "character"]],
+  "gear": ["Arms, Run Of The Mill Quality", "Armor, Plated Mail, Superior Quality", "A custom sword named Bob"],
+  "property": ["A Small Cottage"],
+  "relationships": ["我的老朋友"],
+  "reputations": ["Hero Of The Realm 2D"],
+  "affiliations": ["Knights Order 1D"],
+  "ptgs": {"su": 3, "li": 6, "mi": 8, "se": 9, "tr": 10, "mo": 11},
+  "attr_mod_questions": {"Greed": [{"question": "Has your character coveted something owned by another?", "answer": true}, {"question": "Has your character ever stolen something he coveted?", "answer": false}]}
+}

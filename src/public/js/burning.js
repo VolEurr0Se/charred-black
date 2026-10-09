@@ -24,7 +24,7 @@ function handleIframeLoad(frameName)
         if( ! characterStructValid(charStruct) ){
           scope.$apply(
             function(){
-              scope.addAlert('tools', "That is not a valid character file.");
+              scope.addAlert('tools', tr("That is not a valid character file."));
           });
         }
         scope.$apply(
@@ -37,7 +37,7 @@ function handleIframeLoad(frameName)
         console.log("Loading character failed: " + e);
         scope.$apply(
           function(){
-            scope.addAlert('tools', "That is not a valid character file.");
+            scope.addAlert('tools', tr("That is not a valid character file."));
         });
       }
     }
@@ -1243,7 +1243,7 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
         $scope.unspentTraitPoints -= trait.cost;
       }
       else {
-        $scope.addAlert('trait', "You don't have enough trait points for that.");
+        $scope.addAlert('trait', tr("You don't have enough trait points for that."));
       }
     }
     calculateTraitWarnings($scope, burningData);
@@ -1399,7 +1399,7 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
       }).
       error(function(data,status,headers,config){
         console.log("boo, making charsheet failed: " + data);
-        $scope.addAlert('tools', "Generating character sheet failed: " + data);
+        $scope.addAlert('tools', tr("Generating character sheet failed: ") + data);
       });
   }
 
@@ -1407,7 +1407,7 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
   // launch a download using data from javascript, we need to pass the current character
   // to the server which sends a filename back to a hidden iframe which then launches the download.
   $scope.downloadCurrentCharacter = function(){
-    var nameWarn = "The character must have a name before it can be downloaded.";
+    var nameWarn = tr("The character must have a name before it can be downloaded.");
     if( $scope.name.length == 0 ){
       $scope.addAlert('tools', nameWarn);
       return;
@@ -1427,12 +1427,12 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
       }).
       error(function(data,status,headers,config){
         console.log("boo, making character data file failed: " + data);
-        $scope.addAlert('tools', "Generating character file failed: " + data);
+        $scope.addAlert('tools', tr("Generating character file failed: ") + data);
       });
   }
 
   $scope.saveCurrentCharacterToServer = function(){
-    var nameWarn = "The character must have a name before it can be saved.";
+    var nameWarn = tr("The character must have a name before it can be saved.");
     if( $scope.name.length == 0 ){
       $scope.addAlert('tools', nameWarn);
       return;
@@ -1459,7 +1459,7 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
         else {
           console.log("huzzah, updating character succeeded. Character id = " + data['id']);
         }
-        $scope.addAlert('tools', "Character was successfully saved.", 'succ');
+        $scope.addAlert('tools', tr("Character was successfully saved."), 'succ');
       }).
       error(function(data,status,headers,config){
         console.log("boo, saving character failed: " + data);
@@ -1469,7 +1469,7 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
 
   $scope.loadCharacterFromServer = function(characterIdAndNameToLoad){
     if( characterIdAndNameToLoad == null ){
-      $scope.addAlert('tools', "Select a character to load.");
+      $scope.addAlert('tools', tr("Select a character to load."));
       return;
     }
 
@@ -1486,7 +1486,7 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
 
   $scope.deleteCharacterOnServer = function(characterIdAndNameToLoad){
     if( characterIdAndNameToLoad == null ){
-      $scope.addAlert('tools', "Select a character to delete.");
+      $scope.addAlert('tools', tr("Select a character to delete."));
       return;
     }
 
@@ -1494,7 +1494,7 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
       success(function(data,status,headers,config){
         console.log("Deleted character");
         characterStorage.loadCharacterNames();
-        $scope.addAlert('tools', "Character was successfully deleted.", 'succ');
+        $scope.addAlert('tools', tr("Character was successfully deleted."), 'succ');
       }).
       error(function(data,status,headers,config){
         console.log("Error: Deleting saved character from server failed: HTTP code " + status + ": " + data);
@@ -1556,14 +1556,14 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
 
     // If this already exists, ignore the new entry.
     if ( resourceHash[resource.desc] ){
-      $scope.addAlert('resources', "You already have that " + type + ".");
+      $scope.addAlert('resources', trf("You already have that {type}.", {type: tr(type)}));
       return;
     }
     if ( resource.desc.length == 0 ){
       return;
     }
     if ( resource.cost > $scope.unspentResourcePoints && $scope.enforcePointLimits){
-      $scope.addAlert('resources', "You don't have enough resource points for that.");
+      $scope.addAlert('resources', tr("You don't have enough resource points for that."));
       return;
     }
 
@@ -1595,6 +1595,8 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
     $scope.currentGearDesc = name;
     $scope.currentGearCost = cost;
     $scope.addResource('gear');
+    // 汉化：资源以英文名存储（保持 .char 兼容），输入框里显示中文
+    $scope.currentGearDesc = tr(name);
   }
 
   $scope.addSelectListProperty = function(){
@@ -1620,6 +1622,8 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
     $scope.currentPropertyDesc = name;
     $scope.currentPropertyCost = cost;
     $scope.addResource('property');
+    // 汉化：资源以英文名存储（保持 .char 兼容），输入框里显示中文
+    $scope.currentPropertyDesc = tr(name);
   }
 
   $scope.removeResource = function(type, display){
@@ -1726,7 +1730,7 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
           return $scope.characterStorage;
         },
         message: function() {
-          return "Choose Character to Load";
+          return tr("Choose Character to Load");
         }
       }
     });
@@ -1756,7 +1760,7 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
           return $scope.characterStorage;
         },
         message: function() {
-          return "Choose Character to Delete";
+          return tr("Choose Character to Delete");
         }
       }
     });
@@ -2656,7 +2660,7 @@ function calculateTraitWarnings($scope, burningData){
         var trait = result[1][k];
   
         if( ! (trait in allTakenTraitNames) ){
-          traitWarnings.push("You must take the '"+trait+"' trait to satisfy the '"+selectedLifepath.name+"' lifepath requirements.");
+          traitWarnings.push(trf("You must take the '{trait}' trait to satisfy the '{lifepath}' lifepath requirements.", {trait: tr(trait), lifepath: tr(selectedLifepath.name)}));
         }
       }
     }

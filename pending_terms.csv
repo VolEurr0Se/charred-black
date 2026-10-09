@@ -1,0 +1,1541 @@
+﻿英文,建议译法,出处文件,理由
+Below Setting,地下背景,src/data/gold/lifepaths/roden.json,[背景] 直译；鼠人地下聚居
+Captive Subsetting,俘虏子背景,src/data/gold/lifepaths/wolf.json,[背景] 沿用术语表“俘虏”“子背景”
+Cavedweller Setting,洞穴居民背景,src/data/troll/lifepaths.json,[背景] 直译；仿“城市居民背景”
+College of Magic Setting,魔法学院背景,src/data/wizard/lifepaths.json,[背景] 直译
+Death Cult Setting,死亡邪教背景,src/data/wizard/lifepaths.json,[背景] 沿用术语表“邪教”
+Dwarven Host Subsetting,矮人战团子背景,src/data/gold/lifepaths/dwarf.json,[背景] 沿用术语表Host“战团”
+Dwarven Outcast Subsetting,矮人弃民子背景,src/data/gold/lifepaths/dwarf.json,[背景] 沿用术语表Outcast“弃民”
+Field Setting,田野背景,src/data/gold/lifepaths/roden.json,[背景] 直译
+Ghost Of The Deeping Wood Subsetting,深林幽灵子背景,src/data/gold/lifepaths/wolf.json,[背景] 意译，Deeping Wood指幽深森林
+Path Of Spite Subsetting,怨毒之路子背景,src/data/dark_elf/lifepaths.json,[背景] Spite译“怨毒”，区别于憎恨/怨誓
+Pit Setting,深坑背景,src/data/troll/lifepaths.json,[背景] 沿用术语表“深坑”
+Rats,鼠群,src/data/gold/lifepaths/man.json,[背景] 直译；捕鼠人的戏谑出路
+Slave To The Legion Setting,军团之奴背景,src/data/gold/lifepaths/wolf.json,[背景] 直译；仿“黑暗之奴”
+Society Subsetting,社群子背景,src/data/gold/lifepaths/roden.json,[背景] 意译，指鼠人社会
+Special Gifted Lifepaths,特殊天赋者人生历程,src/data/wizard/lifepaths.json,[背景] 沿用术语表“天赋者”“人生历程”
+Spirit Hunter Subsetting,猎灵者子背景,src/data/gold/lifepaths/wolf.json,[背景] 意译，猎杀灵体者
+Wild Pack Setting,野生狼群背景,src/data/gold/lifepaths/wolf.json,[背景] 直译；巨狼族裔
+Wild Setting,荒野背景,src/data/troll/lifepaths.json,[背景] 沿用术语表“荒野”
+Below,地下,src/data/gold/lifepaths/roden.json,[出路] 同“地下背景”核心词
+Captive,俘虏,src/data/gold/lifepaths/wolf.json,[出路] 同“俘虏子背景”
+Cave,洞穴居民,src/data/troll/lifepaths.json,[出路] 对应洞穴居民背景
+City,城市居民,src/data/gold/lifepaths/man.json; src/data/wizard/lifepaths.json,[出路] 对应城市居民背景
+Court,宫廷,src/data/gold/lifepaths/man.json; src/data/wizard/lifepaths.json,[出路] 对应贵族宫廷子背景
+Field,田野,src/data/gold/lifepaths/roden.json,[出路] 同“田野背景”
+Ghost Of The Deeping Wood,深林幽灵,src/data/gold/lifepaths/wolf.json,[出路] 同子背景核心词
+Great,伟大漆黑,src/data/gold/lifepaths/orc.json,[出路] 对应术语表“伟大漆黑（背景）”
+Legion,军团,src/data/gold/lifepaths/wolf.json,[出路] 对应军团之奴背景
+Noble,贵族,src/data/gold/lifepaths/dwarf.json; src/data/gold/lifepaths/man.json,[出路] 对应贵族背景
+Pit,深坑,src/data/troll/lifepaths.json,[出路] 同“深坑背景”
+Religious,宗教,src/data/gold/lifepaths/man.json; src/data/wizard/lifepaths.json,[出路] 对应宗教子背景
+Society,社群,src/data/gold/lifepaths/roden.json,[出路] 同“社群子背景”
+Spirit Hunter,猎灵者,src/data/gold/lifepaths/wolf.json,[出路] 同子背景核心词
+Village,村民,src/data/wizard/lifepaths.json,[出路] 对应术语表村民背景
+Wild,荒野,src/data/troll/lifepaths.json,[出路] 同“荒野背景”
+Wild Pack,野生狼群,src/data/gold/lifepaths/wolf.json,[出路] 同背景核心词
+Ancestral Taint,先祖之秽,src/data/gold/skills.json,[根属性] 意译，指血脉中的污染
+Spite,怨毒,src/data/dark_elf/skills.json,[根属性] 黑暗精灵情感特性；区别于憎恨
+common,共有,src/data/gold/traits.json; src/data/troll/traits.json,[特质限制标签] 沿用术语表“共有特质”
+dwarven,矮人,src/data/gold/traits.json,[特质限制标签] 仅限矮人族裔
+elven,精灵,src/data/gold/traits.json,[特质限制标签] 仅限精灵族裔
+mannish,人类,src/data/gold/traits.json,[特质限制标签] 仅限人类族裔
+orcish,兽人,src/data/gold/traits.json,[特质限制标签] 仅限兽人族裔
+trollish,巨魔,src/data/troll/traits.json,[特质限制标签] 仅限巨魔族裔，沿用“巨魔”
+wolfish,巨狼,src/data/gold/traits.json,[特质限制标签] 仅限巨狼族裔，沿用“巨狼”
+Adjunct,助教,src/data/wizard/lifepaths.json,[人生历程] 意译，魔法学院中的助理
+Albino,白化者,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Ancient Journeyer,远古旅者,src/data/gold/lifepaths/wolf.json,[人生历程] 直译
+Apt Pupil,得意门生,src/data/wizard/lifepaths.json,[人生历程] 意译
+Arsonist,纵火犯,src/data/gold/lifepaths/roden.json,[人生历程] 沿用术语表“纵火”
+Assassin,刺客,src/data/dark_elf/lifepaths.json,[人生历程] 直译
+Aunt,姨母,src/data/gold/lifepaths/wolf.json,[人生历程] 直译；狼群长辈
+Bandit King,强盗王,src/data/gold/lifepaths/roden.json,[人生历程] 沿用术语表“强盗”
+Battering Ram,攻城槌,src/data/troll/lifepaths.json,[人生历程] 直译
+Bee Keeper,蜂农,src/data/gold/lifepaths/roden.json,[人生历程] 直译；区别于Apiarist养蜂人
+Bellower,吼叫者,src/data/troll/lifepaths.json,[人生历程] 直译；区别于咆哮者
+Bitch,母狼,src/data/gold/lifepaths/wolf.json,[人生历程] 意译，指母狼
+Bogey,鬼怪,src/data/troll/lifepaths.json,[人生历程] 意译，原词指吓人妖怪
+Born Below,地下出生,src/data/gold/lifepaths/roden.json,[人生历程] 按“X出生”惯例
+Born To Dark Caves,黑暗洞穴出生,src/data/troll/lifepaths.json,[人生历程] 按“X出生”惯例
+Born To The Fields,田野出生,src/data/gold/lifepaths/roden.json,[人生历程] 按“X出生”惯例
+Born To The Legion,军团出生,src/data/gold/lifepaths/wolf.json,[人生历程] 按“X出生”惯例
+Born To The Pack,狼群出生,src/data/gold/lifepaths/wolf.json,[人生历程] 按“X出生”惯例
+Born To The Pit,深坑出生,src/data/troll/lifepaths.json,[人生历程] 按“X出生”惯例
+Born Wild,荒野出生,src/data/troll/lifepaths.json,[人生历程] 按“X出生”惯例
+Bridgehaunt,桥下魅影,src/data/troll/lifepaths.json,[人生历程] 意译，盘踞桥下的巨魔
+Brood Mother,育雏之母,src/data/troll/lifepaths.json,[人生历程] 意译，繁育后代的雌性
+Brother/sister,兄弟/姐妹,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Bruiser,打手,src/data/gold/lifepaths/roden.json,[人生历程] 意译
+Brute,蛮兽,src/data/troll/lifepaths.json,[人生历程] 意译
+Bull,公牛,src/data/troll/lifepaths.json,[人生历程] 直译
+Burglar,入室窃贼,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Bushwhacker,伏击者,src/data/gold/lifepaths/roden.json,[人生历程] 意译
+Caged And Beaten,囚笼受虐,src/data/gold/lifepaths/wolf.json,[人生历程] 意译
+Captured And Broken,被俘驯服,src/data/gold/lifepaths/wolf.json,[人生历程] 意译，broken指被驯服
+Carnivore,食肉者,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+City Peddler,城市货郎,src/data/gold/lifepaths/man.json,[人生历程] 沿用术语表“货郎”
+Cloistered Monk/nun,隐修修士/修女,src/data/gold/lifepaths/man.json,[人生历程] 沿用术语表Cloistered Nun/Monk
+Coal Man,运煤工,src/data/gold/lifepaths/man.json,[人生历程] 沿用术语表Coalman
+Corsair,私掠者,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Councillor,议员,src/data/wizard/lifepaths.json,[人生历程] 直译
+Court Enchanter,宫廷附魔师,src/data/wizard/lifepaths.json,[人生历程] 沿用“宫廷”“附魔”
+Court Summoner,宫廷召唤师,src/data/wizard/lifepaths.json,[人生历程] 沿用“宫廷”“召唤”
+Crafter,手艺人,src/data/gold/lifepaths/roden.json,[人生历程] 意译；区别于工匠/巧匠
+Cripple (Lame),残疾人（跛足）,src/data/gold/lifepaths/man.json,[人生历程] 沿用术语表“残疾人”“跛足”
+Cripple (Missing Limb),残疾人（缺肢）,src/data/gold/lifepaths/man.json,[人生历程] 沿用术语表“缺肢”
+Death Artist,死亡艺术家,src/data/wizard/lifepaths.json,[人生历程] 直译
+Death Cultist,死亡邪教徒,src/data/wizard/lifepaths.json,[人生历程] 沿用术语表“邪教徒”
+Death Priest,死亡祭司,src/data/wizard/lifepaths.json,[人生历程] 沿用术语表“祭司”
+Deceiver,欺诈者,src/data/dark_elf/lifepaths.json,[人生历程] 直译
+Demented Inventor,疯癫发明家,src/data/wizard/lifepaths.json,[人生历程] 直译
+Deputy,副治安官,src/data/gold/lifepaths/roden.json,[人生历程] 与Sheriff治安官配套
+Dire Haunt,恐怖魅影,src/data/gold/lifepaths/wolf.json,[人生历程] 意译
+Diseased,染病,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Ditch Digging,挖沟,src/data/gold/lifepaths/man.json,[人生历程] 沿用术语表Ditch Digger
+Dominant,头狼,src/data/gold/lifepaths/wolf.json,[人生历程] 意译，狼群强势个体
+Dread Stone,恐怖之石,src/data/troll/lifepaths.json,[人生历程] 直译
+Dwarf Hunter,矮人猎手,src/data/troll/lifepaths.json,[人生历程] 沿用“矮人”“猎手”
+Dweller,栖居者,src/data/troll/lifepaths.json,[人生历程] 直译
+Ebon Tyrant,乌木暴君,src/data/gold/lifepaths/wolf.json,[人生历程] 直译，ebon指乌黑
+Eremite,苦修隐士,src/data/dark_elf/lifepaths.json,[人生历程] 意译；区别于Recluse
+Evangelist,布道者,src/data/wizard/lifepaths.json,[人生历程] 直译
+Evil Necromancer,邪恶死灵法师,src/data/wizard/lifepaths.json,[人生历程] 直译
+Factotum,杂役,src/data/wizard/lifepaths.json,[人生历程] 意译
+Father/mother,父亲/母亲,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Fell Ancient,凶戾远古者,src/data/gold/lifepaths/wolf.json,[人生历程] 意译
+Fingers,妙手,src/data/gold/lifepaths/roden.json,[人生历程] 意译，指手指灵巧的小偷
+Forlorn,被弃者,src/data/troll/lifepaths.json,[人生历程] 意译
+Ghost Of The Wood,林中幽灵,src/data/gold/lifepaths/wolf.json,[人生历程] 直译
+Gifted Child,天赋孩童,src/data/wizard/lifepaths.json,[人生历程] 沿用术语表“天赋者”
+Grave Robber,盗墓贼,src/data/wizard/lifepaths.json,[人生历程] 直译
+Gravedigger,掘墓人,src/data/gold/lifepaths/man.json,[人生历程] 沿用术语表Grave Digger
+Griever,悲怆者,src/data/dark_elf/lifepaths.json,[人生历程] 沿用术语表Grief“悲怆”
+Guardian,护卫者,src/data/gold/lifepaths/roden.json,[人生历程] 意译；区别于守护者
+Hand,帮手,src/data/gold/lifepaths/roden.json,[人生历程] 意译，指雇工
+Headmaster,院长,src/data/wizard/lifepaths.json,[人生历程] 意译，魔法学院之长
+Healer,治疗者,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Hedge Wizard,乡野巫师,src/data/wizard/lifepaths.json,[人生历程] 意译，hedge指无门派
+Hermit,隐士,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Howling Beast,嚎叫之兽,src/data/gold/lifepaths/wolf.json,[人生历程] 直译
+Initiate,入会者,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Ironshield,铁盾者,src/data/troll/lifepaths.json,[人生历程] 直译
+Junior Student,低年级学生,src/data/wizard/lifepaths.json,[人生历程] 沿用术语表“学生”
+Justicar,司法官,src/data/gold/lifepaths/man.json,[人生历程] 沿用术语表Justiciar
+Last Wolf,最后之狼,src/data/gold/lifepaths/wolf.json,[人生历程] 直译
+Liar,说谎者,src/data/dark_elf/lifepaths.json,[人生历程] 直译
+Lone Wolf,孤狼,src/data/gold/lifepaths/wolf.json,[人生历程] 直译
+Manhunter,猎人者,src/data/troll/lifepaths.json,[人生历程] 意译，猎杀人类者
+Master Enchanter,附魔大师,src/data/wizard/lifepaths.json,[人生历程] 沿用术语表“附魔”
+Master Of The Weak,弱者之主,src/data/wizard/lifepaths.json,[人生历程] 直译
+Master Sorcerer,巫术大师,src/data/wizard/lifepaths.json,[人生历程] 沿用术语表“巫术”
+Master Summoner,召唤大师,src/data/wizard/lifepaths.json,[人生历程] 沿用术语表“召唤”
+Mastermind,主谋,src/data/gold/lifepaths/roden.json,[人生历程] 意译
+Mattock,鹤嘴锄,src/data/troll/lifepaths.json,[人生历程] 直译
+Mayor,镇长,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Mead-maker,蜜酒酿造者,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Mine Haunt,矿坑魅影,src/data/troll/lifepaths.json,[人生历程] 意译；与其他Haunt统一
+Missionary,传教士,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Murderer,杀人犯,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Negotiator,谈判者,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Ox,牛,src/data/troll/lifepaths.json,[人生历程] 沿用“牛之力”的牛
+Perverter,败坏者,src/data/gold/lifepaths/roden.json,[人生历程] 意译
+Pinky,乳鼠,src/data/gold/lifepaths/roden.json,[人生历程] 意译，指无毛初生鼠崽
+Preacher,讲道者,src/data/gold/lifepaths/roden.json,[人生历程] 直译；区别于布道者
+Recluse,隐遁者,src/data/dark_elf/lifepaths.json,[人生历程] 直译；区别于苦修隐士
+Researcher,研究者,src/data/wizard/lifepaths.json,[人生历程] 沿用术语表“研究”
+Sawbones,江湖郎中,src/data/gold/lifepaths/roden.json,[人生历程] 意译，俚语指外科医生
+Scratcher,刨土者,src/data/gold/lifepaths/roden.json,[人生历程] 意译
+Scrub,小卒,src/data/gold/lifepaths/roden.json,[人生历程] 意译，指地位低下者
+Senior Student,高年级学生,src/data/wizard/lifepaths.json,[人生历程] 沿用术语表“学生”
+Serving Wench,酒馆女侍,src/data/gold/lifepaths/man.json,[人生历程] 沿用术语表“女侍”
+Serving Wench (Bitter),酒馆女侍（尖刻）,src/data/gold/lifepaths/man.json,[人生历程] 同上，括注特征
+Serving Wench (Buxom),酒馆女侍（丰满）,src/data/gold/lifepaths/man.json,[人生历程] 同上，括注特征
+Serving Wench (Gorgeous),酒馆女侍（貌美）,src/data/gold/lifepaths/man.json,[人生历程] 同上，括注特征
+Serving Wench (Ugly),酒馆女侍（丑陋）,src/data/gold/lifepaths/man.json,[人生历程] 同上，括注特征
+Shadow,暗影,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Shadow-chaser,逐影者,src/data/gold/lifepaths/wolf.json,[人生历程] 意译
+Sheriff,治安官,src/data/gold/lifepaths/roden.json,[人生历程] 意译
+Siren,塞壬,src/data/dark_elf/lifepaths.json,[人生历程] 音译，诱惑之歌者
+Sneak-thief,潜行窃贼,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Snitch,告密者,src/data/gold/lifepaths/roden.json,[人生历程] 直译
+Speaker Of Names,唤名者,src/data/wizard/lifepaths.json,[人生历程] 意译
+Spirit-chaser,逐灵者,src/data/gold/lifepaths/wolf.json,[人生历程] 意译
+Spirit-howler,啸灵者,src/data/gold/lifepaths/wolf.json,[人生历程] 意译
+Spirit-hunter,猎灵者,src/data/gold/lifepaths/wolf.json,[人生历程] 与猎灵者子背景统一
+Spy,间谍,src/data/wizard/lifepaths.json,[人生历程] 直译
+Stalker,跟踪者,src/data/dark_elf/lifepaths.json,[人生历程] 直译
+Supplicant,祈求者,src/data/wizard/lifepaths.json,[人生历程] 直译
+The Brain,智囊,src/data/gold/lifepaths/roden.json,[人生历程] 意译
+The Gauntlet,夹道考验,src/data/gold/lifepaths/roden.json,[人生历程] 意译，指夹道受击的试炼
+Thief,窃贼,src/data/dark_elf/lifepaths.json,[人生历程] 直译
+Tomb Guard,墓穴守卫,src/data/wizard/lifepaths.json,[人生历程] 直译
+Tortured,受刑者,src/data/troll/lifepaths.json,[人生历程] 意译
+Uncle,叔伯,src/data/gold/lifepaths/wolf.json,[人生历程] 直译；狼群长辈
+Village Guard,村庄卫兵,src/data/gold/lifepaths/man.json,[人生历程] 沿用“村庄”
+Village Peddler,乡村货郎,src/data/gold/lifepaths/man.json,[人生历程] 沿用术语表“货郎”
+Visionary,异象者,src/data/gold/lifepaths/roden.json,[人生历程] 意译，见异象者
+Wandering Lost,迷途流浪者,src/data/gold/lifepaths/wolf.json,[人生历程] 意译
+Warlord,军阀,src/data/troll/lifepaths.json,[人生历程] 直译
+Wastrel,浪荡子,src/data/dark_elf/lifepaths.json,[人生历程] 意译
+Wayward,离群者,src/data/gold/lifepaths/wolf.json,[人生历程] 意译
+Willard,威拉德,src/data/gold/lifepaths/roden.json,[人生历程] 音译，典出与鼠为友的电影角色
+Wizard's Apprentice,巫师学徒,src/data/wizard/lifepaths.json,[人生历程] 沿用术语表“学徒”
+Woodsen,林居者,src/data/gold/lifepaths/roden.json,[人生历程] 意译
+Yearling,一岁幼狼,src/data/gold/lifepaths/wolf.json,[人生历程] 意译
+Althing-wise,阿尔庭通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表阿尔庭
+Ambition-wise,野心通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Ancestral Jaw,先祖之颚,src/data/gold/skills.json,[技能] 狼类技能，直译
+Ancient Ways,古老之道,src/data/gold/skills.json,[技能] 直译
+Army-wise,军队通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Artificer-wise,造物师通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表造物师
+Back Alley-wise,后巷通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Bad End-wise,恶终通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；不得善终之意
+Bannerman-wise,掌旗兵通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表掌旗兵
+Bargaining,议价,src/data/wizard/skills.json,[技能] 与讨价还价区分
+Bat-wise,蝙蝠通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Beer-wise,啤酒通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Begging,乞讨,src/data/gold/skills.json,[技能] 同术语表Beggardry
+Black Legion-wise,黑军团通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表黑军团
+Bribe-wise,贿赂通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Bridge-wise,桥梁通晓,src/data/troll/skills.json,[技能] 按-wise→通晓惯例
+Burden Of The Crown-wise,王冠重负通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Cadence-wise,节拍通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；行军节拍
+Camouflage,隐蔽伪装,src/data/troll/skills.json,[技能] 与Disguise伪装区分
+Campaign-wise,战役通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Cargo-wise,货物通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Cave-in-wise,塌方通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Cave-wise,洞穴通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Champion-wise,勇士通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Chattel-wise,贱奴通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表贱奴
+Cheating-wise,作弊通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Child Rearing,育儿,src/data/gold/skills.json,[技能] 沿用术语表Child-Rearing
+Circination,绘环术,src/data/wizard/skills.json,[技能] 召唤法阵技能，意译
+Citadel-wise,要塞通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表要塞
+City-wise,城市通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Clan-wise,氏族通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表氏族
+Contract-wise,契约通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Countryside-wise,乡野通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Crop-wise,庄稼通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Crowd-wise,人群通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Cut Of The Quickened Mind,迅思之割,src/data/dark_elf/skills.json,[技能] 黑暗精灵之歌，意译
+Daily Bread-wise,生计通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；意译每日面包
+Dance,舞蹈,src/data/gold/skills.json,[技能] 同术语表Dancing
+Darkened Street-wise,暗街通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Darkness-wise,黑暗通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Death Art,死亡技艺,src/data/wizard/skills.json,[技能] 直译，对应战争技艺
+Digging,掘土,src/data/gold/skills.json,[技能] 与挖掘Excavation区分
+Dirge Of Night,夜之哀歌,src/data/dark_elf/skills.json,[技能] 黑暗精灵之歌，直译
+Drama-wise,戏剧通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Drunkard-wise,醉鬼通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表醉鬼
+Dwarf-wise,矮人通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Dwarven Art-wise,矮人技艺通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表矮人技艺
+Dwarven Heroes-wise,矮人英雄通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Elf-wise,精灵通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Elven Art-wise,精灵技艺通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Elven Artifact-wise,精灵器物通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Elven Blade-wise,精灵之刃通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Elven Citadel-wise,精灵要塞通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表要塞
+Elven Ranger-wise,精灵游侠通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表游侠
+Escape Artist,脱身术,src/data/gold/skills.json,[技能] 意译
+Estate-wise,庄园通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Etharch-wise,埃塔君主通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表埃塔君主
+Everybody's Innocent-wise,人人无辜通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Faith-wise,信仰通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Family Secret-wise,家族秘密通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Family-wise,家族通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Fealty-wise,效忠通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Fire And Steel-wise,火与钢通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Forest-wise,森林通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Fugue Of Discord,不和赋格,src/data/dark_elf/skills.json,[技能] 黑暗精灵之歌，直译
+Gas Pocket-wise,瓦斯囊通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；矿井气穴
+Genius-wise,天才通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Gift Of Speed,速度之赐,src/data/gold/skills.json,[技能] 沿用术语表The Gift of Speed
+Gossip-wise,闲话通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；与传闻区分
+Grain-wise,谷物通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Grandfather's Song,祖父之歌,src/data/gold/skills.json,[技能] 狼类技能，直译
+Graybeard-wise,灰须者通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表灰须者
+Great And Black-wise,伟大漆黑通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表伟大漆黑
+Great Masters-wise,伟大大师通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Grift-wise,骗局通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Guilder-wise,行会民通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表行会民
+Handwriting-wise,笔迹通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Hatchet-wise,手斧通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Hills-wise,丘陵通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Hoof-wise,马蹄通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Host-wise,战团通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表战团
+Howling,嚎叫,src/data/gold/skills.json,[技能] 狼类技能，直译
+Imperfections-wise,瑕疵通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Infection-wise,感染通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Intrigue-wise,阴谋通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Keen Of Terror,恐怖哀号,src/data/dark_elf/skills.json,[技能] 黑暗精灵之歌；keen=哀号
+Kingdom-wise,王国通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Lash,鞭笞,src/data/troll/skills.json,[技能] 巨魔技能，直译
+Ledger-wise,账簿通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Leverage-wise,筹码通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；要挟把柄之意
+Litany Of Fools,愚者连祷,src/data/dark_elf/skills.json,[技能] 黑暗精灵之歌；对应职责连祷
+Lost Treasures-wise,失落宝藏通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Maker's Mark-wise,匠印通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Man-wise,人类通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；Man=人类
+Mercenary Company-wise,佣兵团通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Metal-wise,金属通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Mill-wise,磨坊通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Mine-wise,矿井通晓,src/data/troll/skills.json,[技能] 按-wise→通晓惯例
+Monk-wise,修士通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Mounted Combat: Bowman Training,骑战：弓骑训练,src/data/gold/skills.json,[技能] 沿用术语表骑战训练
+Mouth Of Hell-wise,地狱之口通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Mule-wise,骡子通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Mystery Meat-wise,怪肉通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；来历不明的肉
+Nature Of All Things,万物本性,src/data/gold/skills.json,[技能] 狼类技能，意译
+Oath-wise,誓言通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Obligation-wise,义务通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Obscure Text-wise,冷僻文献通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；对应冷僻历史
+Orc-wise,兽人通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Orcish Torture,兽人酷刑,src/data/gold/skills.json,[技能] 沿用术语表兽人、酷刑
+Ore-wise,矿石通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Pack Etiquette,狼群礼仪,src/data/gold/skills.json,[技能] 狼类技能；对应巨魔礼仪
+Paean To The Dark Fire,暗火颂,src/data/dark_elf/skills.json,[技能] 黑暗精灵之歌；对应功业颂
+Pattern-wise,纹样通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Personal Effects-wise,随身物品通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Pilgrimage-wise,朝圣通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Poison-wise,毒药通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Preaching,布道,src/data/gold/skills.json,[技能] 直译
+Primal Bark,原始吠叫,src/data/gold/skills.json,[技能] 狼类技能，直译
+Ratiquette,鼠类礼仪,src/data/gold/skills.json,[技能] 沿用术语表Ratiquote
+Read,阅读,src/data/gold/skills.json,[技能] 同术语表Reading
+Rearing,养育,src/data/gold/skills.json,[技能] 直译
+Rediculous Request-wise,荒唐请求通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Reputation-wise,名声通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表名声
+Rhyme Of The Unraveller,拆解者之韵,src/data/dark_elf/skills.json,[技能] 黑暗精灵之歌；Rhyme→之韵
+Rhythm Of The City-wise,城市节律通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Rituals-wise,仪式通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Road-wise,道路通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Royal Secret-wise,王室秘密通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Rumour-wise,传闻通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Saddlery,马鞍制作,src/data/gold/skills.json,[技能] 对应术语表马鞍匠
+Saint-wise,圣徒通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Scutwork-wise,杂活通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Servant-wise,仆人通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表仆人
+Ship-wise,船只通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Shortcut-wise,捷径通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Slave Deck-wise,奴隶舱通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Song Of Flocks And Herds,畜群之歌,src/data/gold/skills.json,[技能] 沿用术语表畜群之歌
+Sorcery-wise,巫术通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表巫术
+Sorrow Of Truth,真相之悲,src/data/dark_elf/skills.json,[技能] 黑暗精灵之歌，直译
+Spiel-wise,说辞通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Staff,棍术,src/data/gold/skills.json,[技能] 武器技能；对应剑术
+Structural Weakness-wise,结构弱点通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Stuff-wise,杂物通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Suicidal Bravery-wise,不要命之勇通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Supplication To Shadows,祈影,src/data/dark_elf/skills.json,[技能] 对应术语表祈风
+Supplier-wise,供货商通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Supply-wise,补给通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Tall Grass-wise,高草通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Taskmaster-wise,监工通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表监工
+Tavern Tales-wise,酒馆传说通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Terroir-wise,风土通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；葡萄酒风土
+The Way Of The First Hunter,初猎者之道,src/data/gold/skills.json,[技能] 狼类技能，直译
+Tongue Of The Ancient One,古老者之舌,src/data/gold/skills.json,[技能] 直译
+Tragic End-wise,悲剧结局通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Trails-wise,小径通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Treasure-wise,宝藏通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Troll-wise,巨魔通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；沿用术语表巨魔
+Tune-wise,曲调通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Tunnel-wise,隧道通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Tunneling,挖隧道,src/data/gold/skills.json,[技能] 对应术语表挖隧道者
+Twisted Tongue,扭曲之舌,src/data/dark_elf/skills.json,[技能] 黑暗精灵技能，直译
+Vein-wise,矿脉通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Village Secret-wise,村庄秘密通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Vine-wise,葡萄藤通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Vintage-wise,年份酒通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Visage-wise,容貌通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Wagon-wise,马车通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Web-wise,蛛网通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Well-wise,水井通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Whip-wise,鞭子通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Whispered Secrets-wise,耳语秘密通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+White Metal Artifice,白金属工艺,src/data/gold/skills.json,[技能] 沿用术语表White-Metal Artifice
+Windage-wise,风偏通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例；射击风偏
+Wolf-wise,狼通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
+Wolfish Hunting,狼式狩猎,src/data/gold/skills.json,[技能] 沿用术语表狩猎
+Wood-wise,木材通晓,src/data/gold/skills.json,[技能] 按-wise→通晓惯例
++1 Power,+1 力量,src/data/dark_elf/resources.json,[资源] 术语表Power=力量
++1 VA,+1 VA,src/data/dark_elf/resources.json,[资源] 保留缩写VA
++1 speed,+1 速度,src/data/dark_elf/resources.json,[资源] 术语表Speed=速度
+1d Cult,1D 邪教,src/data/gold/resources/roden.json,[资源] 术语表Cult系=邪教，D保留
+2d Cult,2D 邪教,src/data/gold/resources/roden.json,[资源] 同上
+3d Cult,3D 邪教,src/data/gold/resources/roden.json,[资源] 同上
+"A ""Cottage Industry"" Like A Weaver",“家庭作坊”（如织工）,src/data/gold/resources/man.json,[资源] 意译，去冠词
+A Caravel,卡拉维尔帆船,src/data/gold/resources/man.json,[资源] 船型音译加类别
+A Carrack,卡拉克帆船,src/data/gold/resources/man.json,[资源] 船型音译加类别
+A Castle With Attendant Town,城堡及附属城镇,src/data/gold/resources/man.json,[资源] 去冠词意译
+A Dwarven Hall,矮人大厅,src/data/gold/resources/dwarf.json,[资源] 矮人=术语表
+A Felucca,三角帆船,src/data/gold/resources/man.json,[资源] felucca通行译名
+"A Forest, Bay Or Mountain",森林、海湾或山岭,src/data/gold/resources/elf.json,[资源] 精灵领地
+A Fortress,堡垒,src/data/gold/resources/man.json,[资源] 去冠词
+A Government Position In A Prosperous Town,繁荣城镇中的官职,src/data/gold/resources/man.json,[资源] 意译
+A Graybeard's Hold,灰须者的居所,src/data/gold/resources/dwarf.json,[资源] 术语表Graybeard=灰须者
+A High Captain's Hold,大队长的居所,src/data/gold/resources/dwarf.json,[资源] 术语表High Captain=大队长
+A House,房屋,src/data/gold/resources/man.json,[资源] 去冠词
+A Junk,中式帆船,src/data/gold/resources/man.json,[资源] junk通行译名
+A Keep,主堡,src/data/gold/resources/man.json,[资源] keep=城堡主塔
+A Large Business,大型产业,src/data/gold/resources/man.json,[资源] business译产业
+A Large Estate,大庄园,src/data/gold/resources/man.json,[资源] Estate=庄园
+A Leaky Shack,漏雨棚屋,src/data/gold/resources/man.json,[资源] 意译
+A Longboat,长艇,src/data/gold/resources/man.json,[资源] 通行译名
+A Manor Or Small Estate,庄宅或小庄园,src/data/gold/resources/man.json,[资源] manor与estate区分
+A Master Artificer's Hold,造物大师的居所,src/data/gold/resources/dwarf.json,[资源] 术语表Artificer=造物师
+A Moderate-sized Estate,中型庄园,src/data/gold/resources/man.json,[资源] Estate=庄园
+A Palace,宫殿,src/data/gold/resources/man.json,[资源] 去冠词
+A Prince's Hold,王子的居所,src/data/gold/resources/dwarf.json,[资源] 术语表Prince=王子
+A Rowboat Or Skiff,划艇或小舟,src/data/gold/resources/man.json,[资源] 意译
+A Small Business,小型产业,src/data/gold/resources/man.json,[资源] business译产业
+A Small Cottage,小村舍,src/data/gold/resources/man.json,[资源] 按示例
+A Successful Small Business,兴旺的小型产业,src/data/gold/resources/man.json,[资源] 意译
+A Villa Or Farm,别墅或农场,src/data/gold/resources/man.json,[资源] 意译
+A Warden's Hold,守望者的居所,src/data/gold/resources/dwarf.json,[资源] 术语表Warden=守望者
+A Well-paid Position (Like Mayor),高薪职位（如市长）,src/data/gold/resources/man.json,[资源] 意译
+A Workshop,工坊,src/data/gold/resources/dwarf.json,[资源] 去冠词
+An Engineer's Hold,工程师的居所,src/data/gold/resources/dwarf.json,[资源] 术语表Engineer=工程师
+An Urban Hotel,城中宅邸,src/data/gold/resources/man.json,[资源] hotel古义为城市宅邸
+Animal Herd,畜群,src/data/gold/resources/roden.json,[资源] 术语表Herd of Animals=畜群
+Apartment In The Citadel,要塞中的寓所,src/data/gold/resources/elf.json,[资源] 术语表Citadel=要塞
+Apiary,蜂场,src/data/gold/resources/roden.json,[资源] 意译
+Armor,护甲,src/data/gold/resources/man.json; src/data/gold/resources/orc.json; src/data/gold/resources/roden.json; src/data/gold/resources/wolf.json,[资源] 资源类别
+Artisan's Shop,巧匠铺,src/data/gold/resources/elf.json,[资源] 术语表Artisan=巧匠
+Barbed Javelins,倒钩标枪,src/data/dark_elf/resources.json,[资源] 术语表Javelin=标枪
+Barren,贫瘠之地,src/data/gold/resources/wolf.json,[资源] 狼族领地档次
+Bitter Poison,苦毒,src/data/dark_elf/resources.json,[资源] 毒药名意译
+Blood Blossom,血花,src/data/gold/resources/roden.json,[资源] 鼠人物品意译
+Boat,船只,src/data/gold/resources/man.json,[资源] 资源类别
+Brazen Horn,铜号,src/data/gold/resources/orc.json,[资源] 术语表Brazen Horn of Despair
+Caltrops,铁蒺藜,src/data/dark_elf/resources.json,[资源] 通行译名
+Cave Hole,洞穴,src/data/troll/resources.json,[资源] 巨魔居所
+Ceremonial Axe Or Sword,仪式斧或剑,src/data/gold/resources/orc.json,[资源] 意译
+Ceremonial Knives,仪式匕首,src/data/gold/resources/orc.json,[资源] 术语表Knife=匕首
+Chest or Footlocker,箱子或床脚柜,src/data/troll/resources.json,[资源] 意译
+Clan Banner,氏族旗帜,src/data/gold/resources/orc.json,[资源] 意译
+Climbing Claws,攀爬爪,src/data/dark_elf/resources.json,[资源] 术语表Climbing=攀爬
+Cloak Of Darkness,黑暗斗篷,src/data/dark_elf/resources.json,[资源] 意译
+Clothes,衣物,src/data/gold/resources/dwarf.json; src/data/gold/resources/man.json; src/data/gold/resources/roden.json,[资源] 意译
+Dandewine,蒲公英酒,src/data/gold/resources/roden.json,[资源] dandelion+wine合成词
+"Dark Forest, Cove Or Lonely Mountain",幽暗森林、海湾或孤山,src/data/dark_elf/resources.json,[资源] 意译
+Den,巢穴,src/data/gold/resources/roden.json,[资源] 鼠人财产
+Dwarven Arms,矮人武器,src/data/gold/resources/dwarf.json,[资源] 术语表Arms=武器
+Dwarven Shield,矮人盾牌,src/data/gold/resources/dwarf.json,[资源] 术语表Shield=盾牌
+Dwarven Tools,矮人工具,src/data/gold/resources/dwarf.json,[资源] 术语表Tools=工具
+Dwarven-made Heavy Mail,矮人制重型锁甲,src/data/gold/resources/dwarf.json,[资源] 术语表Heavy Mail
+Dwarven-made Light Mail,矮人制轻型锁甲,src/data/gold/resources/dwarf.json,[资源] 术语表Light Mail
+Dwarven-made Plated Mail,矮人制板链甲,src/data/gold/resources/dwarf.json,[资源] 术语表Plated Mail
+Elven Armor,精灵护甲,src/data/gold/resources/elf.json,[资源] 精灵=术语表
+Elven Arms,精灵武器,src/data/gold/resources/elf.json,[资源] 术语表Arms=武器
+Elven Clothes,精灵衣物,src/data/gold/resources/elf.json,[资源] 意译
+Elven Finery,精灵华服,src/data/gold/resources/elf.json,[资源] 术语表Finery=华服
+Elven Instrument,精灵乐器,src/data/gold/resources/elf.json,[资源] 意译
+Elven Land,精灵领地,src/data/gold/resources/elf.json,[资源] 意译
+Elven Mirrorwine,精灵镜酒,src/data/gold/resources/elf.json,[资源] 术语表Mirrorwine=镜酒
+Elven Ship,精灵船,src/data/gold/resources/elf.json,[资源] 意译
+Elven Shoes,精灵鞋,src/data/gold/resources/elf.json,[资源] 意译
+Elven Smithy,精灵锻坊,src/data/gold/resources/elf.json,[资源] 意译
+Elven Steed,精灵骏马,src/data/gold/resources/elf.json,[资源] 意译
+Fields,田地,src/data/gold/resources/roden.json,[资源] 鼠人财产
+Great Wolf Mount,巨狼坐骑,src/data/gold/resources/orc.json,[资源] 术语表Great Wolf=巨狼
+Hidden Fortress,隐秘堡垒,src/data/dark_elf/resources.json,[资源] 意译
+Hides,兽皮甲,src/data/gold/resources/orc.json,[资源] 兽人护甲，对应强化皮甲
+Hobnailed Boots,平头钉靴,src/data/gold/resources/orc.json,[资源] 意译
+Honeyed Oatcakes,蜜燕麦饼,src/data/gold/resources/roden.json,[资源] 意译
+Iron-cased Bombs,铁壳炸弹,src/data/gold/resources/orc.json,[资源] 意译
+Isolated Manor And Moorland,偏僻庄宅与荒原,src/data/dark_elf/resources.json,[资源] 意译
+Large Country Manor And Land,大型乡间庄宅及土地,src/data/gold/resources/elf.json,[资源] 意译
+Large Dwarven House,大型矮人宅邸,src/data/gold/resources/dwarf.json,[资源] 意译
+Leather Collar,皮项圈,src/data/gold/resources/wolf.json,[资源] 狼族护甲
+Leather Greaves And Cuissarts,皮护胫与护腿,src/data/gold/resources/wolf.json,[资源] greaves/cuisses
+Lock Picks,开锁工具,src/data/dark_elf/resources.json,[资源] 术语表Lock Pick=开锁
+Long Knife,长刀,src/data/dark_elf/resources.json,[资源] 意译
+Missile Weapons,投射武器,src/data/gold/resources/man.json; src/data/gold/resources/orc.json,[资源] 术语表Missiles=投射武器
+Moderate-sized Business,中型产业,src/data/gold/resources/man.json,[资源] business译产业
+Morlin Armor,莫林护甲,src/data/dark_elf/resources.json,[资源] Morlin音译
+Morlin Weapons,莫林武器,src/data/dark_elf/resources.json,[资源] Morlin音译
+Nest,窝巢,src/data/gold/resources/roden.json,[资源] 鼠人财产，区别于Den
+Orc Arms,兽人武器,src/data/gold/resources/orc.json,[资源] 术语表Orc=兽人
+Palace,宫殿,src/data/gold/resources/elf.json,[资源] 意译
+Pastoral,田园之地,src/data/gold/resources/elf.json,[资源] 精灵领地档次
+Personal Effects,随身物品,src/data/gold/resources/elf.json; src/data/gold/resources/man.json,[资源] 意译
+Pile of Rocks,石堆,src/data/troll/resources.json,[资源] 巨魔居所
+Plated Body Armor,板式身甲,src/data/gold/resources/wolf.json,[资源] 狼族护甲
+Plated Leather Chanfron,镶板皮面甲,src/data/gold/resources/wolf.json,[资源] chanfron=马面甲
+Plentiful Range,丰饶猎场,src/data/gold/resources/wolf.json,[资源] 狼族领地档次
+Poison,毒药,src/data/gold/resources/orc.json,[资源] 术语表Poisons=毒药
+Rags,破布衣,src/data/gold/resources/orc.json; src/data/troll/resources.json,[资源] 意译
+Rat's Nest Property,鼠窝财产,src/data/gold/resources/roden.json,[资源] 术语表Property=财产
+Reinforced Hides,强化兽皮甲,src/data/gold/resources/orc.json,[资源] 参照强化皮甲
+Remote Refuge,偏远避难所,src/data/dark_elf/resources.json,[资源] 意译
+Riding Harness For Wolf,狼用骑具,src/data/gold/resources/orc.json,[资源] 意译
+Riding Mount Or Pack Animal,坐骑或驮兽,src/data/gold/resources/dwarf.json; src/data/gold/resources/man.json; src/data/gold/resources/orc.json,[资源] 意译
+Robes Of The Ordained,受任者之袍,src/data/gold/resources/roden.json,[资源] 意译
+Roden Throwing Blades,鼠人飞刃,src/data/gold/resources/roden.json,[资源] 术语表Roden=鼠人
+Run Of The Mill Arms,普通武器,src/data/gold/resources/elf.json,[资源] 术语表run of the mill=普通
+Run Of The Mill Bow,普通弓,src/data/gold/resources/elf.json,[资源] 术语表Bow=弓
+Run Of The Mill Quality,普通品质,src/data/gold/resources/man.json; src/data/gold/resources/orc.json,[资源] 术语表普通+品质
+Sack,麻袋,src/data/troll/resources.json,[资源] 意译
+Safe House,安全屋,src/data/dark_elf/resources.json,[资源] 通行译名
+Servant's Black Robes,仆从黑袍,src/data/gold/resources/orc.json,[资源] 术语表Servant=仆从
+Servant's Leather Apron,仆从皮围裙,src/data/gold/resources/orc.json,[资源] 术语表Servant=仆从
+Servant's Tools Of The Trade,仆从的行当工具,src/data/gold/resources/orc.json,[资源] 术语表Tools of the Trade
+Shiny Trophies,闪亮战利品,src/data/troll/resources.json,[资源] 意译
+Shoddy Arms,劣质武器,src/data/gold/resources/dwarf.json,[资源] 术语表Shoddy=劣质
+Shoddy Crossbow,劣质弩,src/data/gold/resources/dwarf.json,[资源] 术语表Crossbow=弩
+Shoddy Tools,劣质工具,src/data/gold/resources/dwarf.json,[资源] 术语表Shoddy=劣质
+Shoes,鞋,src/data/gold/resources/man.json; src/data/gold/resources/roden.json,[资源] 意译
+Skill Tools,技能工具,src/data/gold/resources/elf.json; src/data/gold/resources/orc.json,[资源] 意译
+Small Dwarven House,小型矮人宅邸,src/data/gold/resources/dwarf.json,[资源] 意译
+Spiteful Poison,怨毒,src/data/dark_elf/resources.json,[资源] 毒药名意译
+Sturdy Shoes,结实的鞋,src/data/gold/resources/dwarf.json,[资源] 意译
+Territory,领地,src/data/gold/resources/wolf.json,[资源] 狼族财产类别
+Throwing Weapons,投掷武器,src/data/gold/resources/man.json,[资源] 术语表Throwing=投掷
+Tool Kit,工具包,src/data/gold/resources/roden.json,[资源] 参照Poisoner's Toolkit
+Traveling Gear,旅行装备,src/data/gold/resources/dwarf.json; src/data/gold/resources/man.json; src/data/gold/resources/orc.json; src/data/gold/resources/roden.json,[资源] 术语表gear=装备
+Treasure Ship,宝船,src/data/gold/resources/man.json,[资源] 意译
+Troll Lash,巨魔鞭,src/data/troll/resources.json,[资源] 巨魔=术语表
+Troll Shoes,巨魔鞋,src/data/troll/resources.json,[资源] 意译
+Trophies,战利品,src/data/troll/resources.json,[资源] 意译
+Visionary Cult,幻视者邪教,src/data/gold/resources/roden.json,[资源] 术语表Cult=邪教
+Wasteland,荒原,src/data/dark_elf/resources.json,[资源] 意译
+Whip,鞭子,src/data/gold/resources/orc.json,[资源] 意译
+Wild Grounds,荒野猎场,src/data/gold/resources/wolf.json,[资源] 狼族领地档次
+Wooden Shield,木盾,src/data/gold/resources/roden.json,[资源] 术语表Shield
+A Bit Deaf,有点耳背,src/data/gold/traits.json,[特质] 意译：听力受损
+A Little Crazy,有点疯,src/data/gold/traits.json,[特质] 直译
+A Little Fat,有点胖,src/data/gold/traits.json,[特质] 直译
+Abashed,羞怯,src/data/gold/traits.json,[特质] 直译
+Abnormally Long Tongue,异常长舌,src/data/gold/traits.json,[特质] 直译
+Abused,受虐,src/data/gold/traits.json,[特质] 直译
+Aches And Pains,浑身酸痛,src/data/gold/traits.json,[特质] 意译
+Acute,敏锐,src/data/gold/traits.json,[特质] 意译：头脑锐利
+Addicted,成瘾,src/data/gold/traits.json,[特质] 直译
+Addled,糊涂,src/data/troll/traits.json,[特质] 直译
+Adorable,可爱,src/data/gold/traits.json,[特质] 直译
+Aecer's Likeness,艾瑟之貌,src/data/gold/traits.json,[特质] 音译Aecer+意译：鼠人外貌
+Affinity For Books And Scrolls,亲近书卷,src/data/gold/traits.json,[特质] 沿用术语表“亲近……”
+Affinity For Business,亲近生意,src/data/gold/traits.json,[特质] 沿用术语表“亲近……”
+Affinity For Horses,亲近马匹,src/data/gold/traits.json,[特质] 沿用术语表“亲近……”
+Affinity For Plants,亲近植物,src/data/gold/traits.json,[特质] 沿用术语表“亲近……”
+Affinity For Rope,亲近绳索,src/data/gold/traits.json,[特质] 沿用术语表“亲近……”
+Affinity For Sheep And Goats,亲近绵羊与山羊,src/data/gold/traits.json,[特质] 沿用术语表“亲近……”
+Affinity For Spiders,亲近蜘蛛,src/data/gold/traits.json,[特质] 沿用术语表“亲近……”
+Aggressive Carnivore,好斗食肉者,src/data/gold/traits.json,[特质] 意译：食肉鼠人天性好斗
+Agoraphobic,广场恐惧,src/data/gold/traits.json,[特质] 直译：恐旷症
+Agreeable,随和,src/data/gold/traits.json,[特质] 直译
+Alarming,骇人,src/data/gold/traits.json,[特质] 意译
+Alarmist,危言耸听,src/data/gold/traits.json,[特质] 意译：遇事先报警
+Alcoholic,酗酒,src/data/gold/traits.json,[特质] 直译
+Alms-taker,受施者,src/data/gold/traits.json,[特质] 直译：接受施舍者
+Aloof,冷淡,src/data/gold/traits.json,[特质] 直译
+Always in the Way,总是碍事,src/data/wizard/traits.json,[特质] 直译
+Ambidextrous,左右开弓,src/data/gold/traits.json,[特质] 意译：双手皆利
+Ambitious,野心勃勃,src/data/gold/traits.json,[特质] 直译
+Amenable,顺从,src/data/gold/traits.json,[特质] 直译
+Amenable To Other Options,乐于变通,src/data/gold/traits.json,[特质] 意译
+Anemic,贫血,src/data/gold/traits.json,[特质] 直译
+Appreciation For Beauty,欣赏美,src/data/gold/traits.json,[特质] 直译
+Apprehensive,忧惧,src/data/gold/traits.json,[特质] 直译
+Arcane,神秘莫测,src/data/gold/traits.json,[特质] 意译：秘法气质
+Arrogant,傲慢,src/data/gold/traits.json,[特质] 直译
+Assistant Pig-Keeper,助理猪倌,src/data/wizard/traits.json,[特质] 直译
+Aura Of Terror,恐怖光环,src/data/gold/traits.json,[特质] 参照术语表“恐惧光环”
+Authoritative,威严,src/data/gold/traits.json,[特质] 直译
+Back-breaking Labor,苦力活,src/data/gold/traits.json,[特质] 意译：繁重体力劳动
+Bad Egg,坏蛋,src/data/gold/traits.json,[特质] 意译
+Barker,吆喝者,src/data/gold/traits.json,[特质] 意译：招揽叫卖之人
+Base Humility,卑微谦恭,src/data/gold/traits.json,[特质] 意译
+Batshit,疯疯癫癫,src/data/gold/traits.json,[特质] 意译：俚语极疯
+Bedside Manner,体恤病患,src/data/gold/traits.json,[特质] 意译：医者待病人之道
+Beespeaker,蜂语者,src/data/gold/traits.json,[特质] 意译：通晓蜂语
+Believer,信徒,src/data/gold/traits.json,[特质] 直译
+Bellicose,好战,src/data/gold/traits.json,[特质] 直译
+Bellowing,声如雷吼,src/data/troll/traits.json,[特质] 意译：巨魔嗓音极响
+Berzerker,狂战士,src/data/troll/traits.json,[特质] 直译
+Big Boned,骨架粗大,src/data/gold/traits.json,[特质] 直译
+Bilge-drinker,饮舱底水者,src/data/gold/traits.json,[特质] 直译
+Birdie Talk,鸟语,src/data/gold/traits.json,[特质] 意译：与鸟对鸣
+Bitter,怨愤,src/data/gold/traits.json,[特质] 直译
+Black Lung,黑肺,src/data/gold/traits.json,[特质] 直译
+Black Nails,黑爪,src/data/troll/traits.json,[特质] 意译：Nails指巨魔爪
+Blank Stare,呆滞目光,src/data/gold/traits.json,[特质] 意译
+Blasphemer,渎神者,src/data/gold/traits.json,[特质] 直译
+Blisters,水泡,src/data/gold/traits.json,[特质] 直译
+Bloviatic,夸夸其谈,src/data/gold/traits.json,[特质] 意译
+Boaster,吹牛者,src/data/gold/traits.json,[特质] 直译
+Bookworm,书呆子,src/data/gold/traits.json,[特质] 意译
+Boor,粗人,src/data/troll/traits.json,[特质] 直译
+Bored,无聊,src/data/gold/traits.json,[特质] 直译
+Born Under The Silver Stars,生于银星之下,src/data/gold/traits.json,[特质] 沿用术语表
+Bottomless Stomach,无底胃,src/data/gold/traits.json,[特质] 直译
+Brash,鲁莽,src/data/gold/traits.json,[特质] 直译
+Brave,勇敢,src/data/gold/traits.json,[特质] 直译
+Broken,破碎,src/data/gold/traits.json,[特质] 意译：身心崩坏之人
+Broken In,被驯服,src/data/gold/traits.json,[特质] 意译：学徒被磨去傲气
+Broken Man,破碎之人,src/data/gold/traits.json,[特质] 直译
+Broken Spirit,心灵破碎,src/data/gold/traits.json,[特质] 直译
+Broken Wolf,驯服之狼,src/data/gold/traits.json,[特质] 意译：被驯化的狼
+Brook No Fools,不容愚人,src/data/wizard/traits.json,[特质] 直译
+Brusque,唐突,src/data/gold/traits.json,[特质] 直译
+Brutal,残暴,src/data/gold/traits.json,[特质] 直译
+Brutality,暴虐,src/data/gold/traits.json,[特质] 直译
+Brutish Efficiency,粗野高效,src/data/gold/traits.json,[特质] 直译
+Bulbous Nose,蒜头鼻,src/data/gold/traits.json,[特质] 意译
+Bull's-eye Spitter,唾沫神射手,src/data/gold/traits.json,[特质] 意译：吐口水百发百中
+Bull-legged,牛蹄腿,src/data/troll/traits.json,[特质] 意译：生有牛蹄
+Bully,欺凌者,src/data/wizard/traits.json,[特质] 意译
+Burial At Sea,海葬,src/data/gold/traits.json,[特质] 直译
+Burial Rites,葬礼仪式,src/data/gold/traits.json,[特质] 直译
+Buxom,丰满,src/data/gold/traits.json,[特质] 直译
+Cadaverous,形如枯槁,src/data/gold/traits.json,[特质] 意译
+Call Of The Sea,大海的呼唤,src/data/gold/traits.json,[特质] 参照术语表“荒野的呼唤”
+Callous,冷漠无情,src/data/gold/traits.json,[特质] 直译
+Calloused,满手老茧,src/data/gold/traits.json,[特质] 意译
+Callow,稚嫩,src/data/gold/traits.json,[特质] 直译
+Calm Demeanor,举止沉静,src/data/gold/traits.json,[特质] 直译
+Catamite,娈宠,src/data/gold/traits.json,[特质] 意译：区别于术语表Ganymede“娈童”
+Changeling Coat,幻变毛皮,src/data/gold/traits.json,[特质] 意译：毛色随意变化
+Charging Blindly,盲目冲锋,src/data/gold/traits.json,[特质] 直译
+Charming,迷人,src/data/gold/traits.json,[特质] 直译
+Chosen Wolf,天选之狼,src/data/gold/traits.json,[特质] 参照术语表“天选之人”
+Chronologue,知时者,src/data/gold/traits.json,[特质] 意译：天生知晓时辰
+Chuffing,呼哧喘气,src/data/gold/traits.json,[特质] 意译：喷气粗喘
+Chuntering,嘟嘟囔囔,src/data/gold/traits.json,[特质] 意译：低声抱怨
+Circumspect,审慎,src/data/gold/traits.json,[特质] 直译
+Claustrophobic,幽闭恐惧,src/data/gold/traits.json,[特质] 直译
+Clawed,有爪,src/data/gold/traits.json,[特质] 直译
+Club Tail,棒尾,src/data/gold/traits.json,[特质] 直译
+Clumsy,笨拙,src/data/gold/traits.json,[特质] 直译
+Coat Of Darkness,暗影毛皮,src/data/gold/traits.json,[特质] 意译：适应黑暗的皮毛
+Coat Of Fur,毛皮,src/data/gold/traits.json,[特质] 直译
+Cold,冷漠,src/data/dark_elf/traits.json,[特质] 意译：不为情所动
+Cold-blooded,冷血,src/data/gold/traits.json,[特质] 沿用术语表“冷血”
+Collector,收藏家,src/data/gold/traits.json,[特质] 直译
+Color Blind,色盲,src/data/gold/traits.json,[特质] 直译
+Colorful,个性鲜明,src/data/gold/traits.json,[特质] 意译
+Comely,秀美,src/data/gold/traits.json,[特质] 直译
+Comfortable Shoes,舒适的鞋,src/data/gold/traits.json,[特质] 直译
+Commanding Aura,统率光环,src/data/gold/traits.json,[特质] 沿用术语表“统率”
+Communal,群居,src/data/gold/traits.json,[特质] 意译
+Complaining,爱抱怨,src/data/gold/traits.json,[特质] 直译
+Compulsive Liar,谎话成癖,src/data/gold/traits.json,[特质] 意译
+Condescending,居高临下,src/data/gold/traits.json,[特质] 意译
+Confident,自信,src/data/gold/traits.json,[特质] 直译
+Confusing Rant,混乱咆哮,src/data/gold/traits.json,[特质] 参照术语表“咆哮者”
+Connected,有门路,src/data/gold/traits.json,[特质] 意译：人脉超出身份
+Contortionist,柔术,src/data/gold/traits.json,[特质] 意译：柔术师
+Cookie,厨子,src/data/gold/traits.json,[特质] 意译：船上厨子昵称
+Cool Headed,头脑冷静,src/data/gold/traits.json,[特质] 直译
+Corrupt,腐败,src/data/gold/traits.json,[特质] 直译
+Corrupted,腐化,src/data/wizard/traits.json,[特质] 意译：向黑暗力量敞开
+Council of Mages,法师议会,src/data/wizard/traits.json,[特质] 直译
+Cowardly,胆怯,src/data/gold/traits.json,[特质] 参照术语表“懦夫”
+Cramped Hands,手部抽筋,src/data/gold/traits.json,[特质] 意译
+Creepy,瘆人,src/data/wizard/traits.json,[特质] 意译
+Crippled,残废,src/data/gold/traits.json,[特质] 直译
+Crotchety,脾气古怪,src/data/gold/traits.json,[特质] 意译
+Cruel,残忍,src/data/gold/traits.json,[特质] 直译
+Cry Wolf,狼来了,src/data/gold/traits.json,[特质] 意译：典故“喊狼来了”
+Cryptic,高深莫测,src/data/gold/traits.json,[特质] 意译
+Crystalline Spines,水晶棘刺,src/data/troll/traits.json,[特质] 直译
+Cult Leader,邪教领袖,src/data/wizard/traits.json,[特质] 参照术语表“邪教徒”
+Curious,好奇,src/data/gold/traits.json,[特质] 直译
+Curses Like A Sailor,满嘴水手粗话,src/data/gold/traits.json,[特质] 意译
+Cursing,骂骂咧咧,src/data/gold/traits.json,[特质] 意译
+Dangerous,危险,src/data/gold/traits.json,[特质] 直译
+Dangerous Obsession,危险的执迷,src/data/gold/traits.json,[特质] 直译
+Darling Of The Court,宫廷宠儿,src/data/gold/traits.json,[特质] 直译
+Deaf,失聪,src/data/gold/traits.json,[特质] 直译
+Debauched,放荡,src/data/gold/traits.json,[特质] 直译
+Deceptive,诡诈,src/data/dark_elf/traits.json,[特质] 直译
+Deep Fur,厚毛,src/data/gold/traits.json,[特质] 直译
+Deep Sense,地底感知,src/data/gold/traits.json,[特质] 意译：地下方向感
+Deep Sleeper,沉睡者,src/data/gold/traits.json,[特质] 意译：难以唤醒
+Deferential,恭顺,src/data/gold/traits.json,[特质] 直译
+Demagogue,煽动家,src/data/gold/traits.json,[特质] 直译
+Demented,疯癫,src/data/gold/traits.json,[特质] 直译
+Denouncer,告发者,src/data/gold/traits.json,[特质] 直译
+Desperate,绝望,src/data/gold/traits.json,[特质] 直译
+Despondent,沮丧,src/data/gold/traits.json,[特质] 直译
+Devourer,吞噬者,src/data/troll/traits.json,[特质] 直译
+Devout,虔诚,src/data/gold/traits.json,[特质] 直译
+Diligent,勤勉,src/data/gold/traits.json,[特质] 直译
+Diminutive Hands,小手,src/data/gold/traits.json,[特质] 直译
+Diminutive Stature,身材矮小,src/data/gold/traits.json,[特质] 直译
+Disciplined,自律,src/data/gold/traits.json,[特质] 直译
+Disfigured,毁容,src/data/wizard/traits.json,[特质] 直译
+Disgruntled,心怀不满,src/data/wizard/traits.json,[特质] 直译
+Dismissive,轻蔑,src/data/gold/traits.json,[特质] 直译
+Dispute-settler,平息纷争,src/data/gold/traits.json,[特质] 意译：调解争端
+Distracted,心不在焉,src/data/gold/traits.json,[特质] 直译
+Disturbed,心神不宁,src/data/gold/traits.json,[特质] 直译
+Disturbingly Confident,自信得吓人,src/data/gold/traits.json,[特质] 直译
+Disturbingly Large Mouth,大得吓人的嘴,src/data/gold/traits.json,[特质] 直译
+Dog Lover,爱狗者,src/data/gold/traits.json,[特质] 直译
+Dog-faced Boy,狗脸男孩,src/data/gold/traits.json,[特质] 直译
+Domineering Presence,霸道气场,src/data/gold/traits.json,[特质] 沿用术语表“霸道”
+Down To Earth,脚踏实地,src/data/gold/traits.json,[特质] 意译
+Downtrodden,受压迫,src/data/gold/traits.json,[特质] 直译
+Dramatic,戏剧化,src/data/gold/traits.json,[特质] 直译
+Dreadful,可怖,src/data/gold/traits.json,[特质] 直译
+Driven,矢志不渝,src/data/gold/traits.json,[特质] 意译：为远大目标驱动
+Drop-dead Gorgeous,美艳绝伦,src/data/gold/traits.json,[特质] 意译
+Dusty,满身尘土,src/data/gold/traits.json,[特质] 直译
+Dutiful,尽职,src/data/gold/traits.json,[特质] 直译
+Ear For Voices,辨声之耳,src/data/gold/traits.json,[特质] 意译
+Ear To The Ground,耳听八方,src/data/gold/traits.json,[特质] 意译：消息灵通
+Early Riser,早起,src/data/gold/traits.json,[特质] 直译
+Earth Blood,大地之血,src/data/troll/traits.json,[特质] 直译
+Earthen,质朴如土,src/data/gold/traits.json,[特质] 意译
+Earthy Smell,泥土气息,src/data/gold/traits.json,[特质] 直译
+Eating Maggots,吃蛆,src/data/gold/traits.json,[特质] 直译
+Ebullient,热情洋溢,src/data/gold/traits.json,[特质] 直译
+Educated,受过教育,src/data/gold/traits.json,[特质] 直译
+Effete,娇弱,src/data/gold/traits.json,[特质] 直译
+Emotional,情绪化,src/data/gold/traits.json,[特质] 直译
+Enemy Of The Sun (Troll),太阳之敌（巨魔）,src/data/troll/traits.json,[特质] 沿用术语表“太阳之敌”
+Enlarged Incisors,门齿硕大,src/data/gold/traits.json,[特质] 直译
+Entropic,物遇即坏,src/data/gold/traits.json,[特质] 意译：身边事物易损坏
+Erudite,博学,src/data/gold/traits.json,[特质] 直译
+Esoteric,玄奥,src/data/gold/traits.json,[特质] 直译
+Estimation,估算,src/data/gold/traits.json,[特质] 直译
+Eunuch,阉人,src/data/gold/traits.json,[特质] 直译
+Evasive,闪烁其词,src/data/gold/traits.json,[特质] 意译
+Evil,邪恶,src/data/wizard/traits.json,[特质] 直译
+Exasperated,恼火,src/data/gold/traits.json,[特质] 直译
+Exhausted,精疲力竭,src/data/gold/traits.json,[特质] 直译
+Exorcism Ritualist,驱魔仪式师,src/data/gold/traits.json,[特质] 参照术语表“驱魔人”
+Extra Digit,多指,src/data/gold/traits.json,[特质] 直译
+Extra-long Fur,超长毛,src/data/gold/traits.json,[特质] 直译
+Extremely Bitter,极度怨愤,src/data/gold/traits.json,[特质] 直译
+Extremely Respectful Of One's Betters,对上极为恭敬,src/data/gold/traits.json,[特质] 意译
+Extrovert,外向,src/data/gold/traits.json,[特质] 直译
+Eye Of The Hunter,猎人之眼,src/data/gold/traits.json,[特质] 直译
+Faded,黯淡,src/data/gold/traits.json,[特质] 意译
+Familiar Face,熟面孔,src/data/gold/traits.json,[特质] 直译
+Fanatical Devotion,狂热奉献,src/data/gold/traits.json,[特质] 直译
+Fangs,獠牙,src/data/troll/traits.json,[特质] 直译
+Fastidious,挑剔,src/data/gold/traits.json,[特质] 直译
+Faust,浮士德,src/data/wizard/traits.json,[特质] 音译：典故
+Fea,菲亚,src/data/gold/traits.json,[特质] 沿用术语表“菲亚”
+Fealty To The Fea,效忠菲亚,src/data/gold/traits.json,[特质] 沿用术语表
+Fear Of Cheese,恐奶酪,src/data/gold/traits.json,[特质] 直译
+Fear Of Wet Noises,惧怕湿漉声响,src/data/gold/traits.json,[特质] 直译
+Feared,令人畏惧,src/data/gold/traits.json,[特质] 直译
+Feared Above All,举世畏惧,src/data/wizard/traits.json,[特质] 意译
+Fearful Respect Of The Servants,仆从敬畏,src/data/gold/traits.json,[特质] 意译
+Fearsome Beast,可怖之兽,src/data/gold/traits.json,[特质] 直译
+Femme Fatale/Homme Fatale,蛇蝎美人/致命美男,src/data/dark_elf/traits.json,[特质] 意译
+Feral,野性,src/data/gold/traits.json,[特质] 直译
+Feral Elf,野性精灵,src/data/dark_elf/traits.json,[特质] 直译
+Fervent Believer,狂热信徒,src/data/gold/traits.json,[特质] 直译
+Fiery,火爆,src/data/wizard/traits.json,[特质] 意译
+Filthy,肮脏,src/data/dark_elf/traits.json,[特质] 直译
+Firm,坚定,src/data/gold/traits.json,[特质] 直译
+Fixed Smile,僵笑,src/data/gold/traits.json,[特质] 意译
+Flamboyant,浮夸,src/data/gold/traits.json,[特质] 直译
+Flatterer,谄媚者,src/data/gold/traits.json,[特质] 直译
+Flea-bitten,满身跳蚤,src/data/gold/traits.json,[特质] 意译
+Flip,轻率,src/data/gold/traits.json,[特质] 意译：flippant
+Floury,满身面粉,src/data/gold/traits.json,[特质] 意译
+Folksy Wisdom,乡土智慧,src/data/gold/traits.json,[特质] 直译
+Following The Beat,踩准节拍,src/data/gold/traits.json,[特质] 意译
+Fondness For Elven Blood,嗜好精灵之血,src/data/gold/traits.json,[特质] 兽人性格特质，直译保留嗜血意味
+Forked Tongue,巧舌如簧,src/data/gold/traits.json,[特质] 谎言的呼应特质，取“分叉舌”善骗之意
+Formalist,拘泥形式,src/data/gold/traits.json,[特质] 性格特质，重视形式规矩
+Formidable Bark,威猛吠声,src/data/gold/traits.json,[特质] 狼之吠声洪亮穿林
+Fortitude,坚毅,src/data/gold/traits.json,[特质] 力竭仍能坚持
+Foul Smelling,浑身恶臭,src/data/gold/traits.json,[特质] 外貌/性格特质
+Frail,体弱,src/data/gold/traits.json,[特质] 体质孱弱
+Frippery,爱好华饰,src/data/gold/traits.json,[特质] 喜好浮华服饰
+Frost Coat,霜皮毛,src/data/gold/traits.json,[特质] 狼毛如冰，呼应潜行
+Frustrated,气急败坏,src/data/gold/traits.json,[特质] 计划落空而恼怒
+Fur Of The Fields,田野之毛,src/data/gold/traits.json,[特质] 鼠人毛皮融入田野
+Furtive,鬼鬼祟祟,src/data/wizard/traits.json,[特质] 行事偷摸
+Garrulous,喋喋不休,src/data/gold/traits.json,[特质] 话多
+Gelid,冷若冰霜,src/data/gold/traits.json,[特质] 冰冷淡漠
+Generous,慷慨,src/data/gold/traits.json,[特质] 性格特质
+Genial,和蔼,src/data/gold/traits.json,[特质] 性格特质
+Genius,天才,src/data/gold/traits.json,[特质] 自认点子绝妙
+Gentle But Firm,温和而坚定,src/data/gold/traits.json,[特质] 性格特质
+Geometric,几何头脑,src/data/gold/traits.json,[特质] 擅长几何计算
+Gerbil Brain,沙鼠脑子,src/data/gold/traits.json,[特质] 鼠人特质，健忘短视
+Ghost Coat,幽灵皮毛,src/data/gold/traits.json,[特质] 毛色随环境变幻
+Glib,油嘴滑舌,src/data/gold/traits.json,[特质] 善编故事令人信服
+Gloryhound,沽名钓誉者,src/data/gold/traits.json,[特质] 追逐荣耀冒进
+Gluttonous,贪吃,src/data/gold/traits.json,[特质] 性格特质
+Gnawing Hunger,噬心饥饿,src/data/gold/traits.json,[特质] 啃噬般的饥饿
+Good For Nothing,一无是处,src/data/gold/traits.json,[特质] 性格特质
+Good Listener,善于倾听,src/data/gold/traits.json,[特质] 呼应特质
+Gopher,跑腿小弟,src/data/gold/traits.json,[特质] 跑来跑去打杂
+Gossip,爱嚼舌根,src/data/gold/traits.json,[特质] 性格特质
+Graceful,优雅,src/data/gold/traits.json,[特质] 动作流畅
+Graduate,学院毕业生,src/data/wizard/traits.json,[特质] 与魔法学院从属
+Grand,派头十足,src/data/gold/traits.json,[特质] 气派宏大
+Greasy,油腻,src/data/gold/traits.json,[特质] 外貌/性格特质
+Great Cunning,大狡诈,src/data/gold/traits.json,[特质] 黑色毁灭者首领之狡
+Great Lupine Form,巨狼之形,src/data/gold/traits.json,[特质] 巨狼体形，沿用“巨狼”
+Greater Muse,大缪斯,src/data/gold/traits.json,[特质] 受缪斯启发，艺术大成
+Greedy,贪心,src/data/gold/traits.json,[特质] 与Greed贪婪区分
+Grey Mantle,灰幔,src/data/gold/traits.json,[特质] 术语表 Gray Mantle
+Grotesque,奇形怪状,src/data/troll/traits.json,[特质] 巨魔畸形外貌
+Grumbling,发牢骚,src/data/gold/traits.json,[特质] 性格特质
+Guarded,戒备,src/data/gold/traits.json,[特质] 心存防备
+Hacking Cough,剧烈干咳,src/data/gold/traits.json,[特质] 身体特质
+Hairy,多毛,src/data/gold/traits.json,[特质] 外貌特质
+Half-elf,半精灵,src/data/gold/traits.json,[特质] 术语表 Half Elf
+Halitosis,口臭,src/data/gold/traits.json,[特质] 身体特质
+Hammer Hands,锤手,src/data/troll/traits.json,[特质] 巨魔手如鹤嘴锄，善殴打
+Hand-eye Coordination,手眼协调,src/data/gold/traits.json,[特质] 感知/敏捷根属性取整
+Hand-shaker,握手达人,src/data/gold/traits.json,[特质] 政客的招牌手段
+Hands Of Iron,铁拳,src/data/gold/traits.json,[特质] 拳脚锤炼如武器
+Handsome,英俊,src/data/gold/traits.json,[特质] 外貌特质
+Happy-go-lucky,乐天随性,src/data/gold/traits.json,[特质] 性格特质
+Hard Work,吃苦耐劳,src/data/gold/traits.json,[特质] 性格特质
+Hard-hearted,铁石心肠,src/data/gold/traits.json,[特质] 术语表 Hard Hearted
+Hardened,千锤百炼,src/data/gold/traits.json,[特质] 劳作练就铁骨
+Harried,焦头烂额,src/data/wizard/traits.json,[特质] 被事务追赶
+Hatred Of Forests,憎恨森林,src/data/gold/traits.json,[特质] 兽人性格特质
+Haunted,心魔缠身,src/data/gold/traits.json,[特质] 被往事纠缠
+Hazed,受过欺凌,src/data/wizard/traits.json,[特质] 学院新生被欺负，得敌对关系
+"He's A Jonah, That One",他是个扫把星,src/data/gold/traits.json,[特质] Jonah指船上带霉运之人
+Heaving,推撞,src/data/troll/traits.json,[特质] 巨魔攻城槌兵的冲撞
+Hide Before Battle,战前躲藏,src/data/gold/traits.json,[特质] 性格特质
+Hiding,躲藏,src/data/gold/traits.json,[特质] 哥布林躲避主人
+Holier,自命清高,src/data/gold/traits.json,[特质] “比你更神圣”之意
+Hollow Bones,中空骨骼,src/data/gold/traits.json,[特质] 身体特质
+Homesick,思乡,src/data/gold/traits.json,[特质] 性格特质
+Honored,受人尊敬,src/data/gold/traits.json,[特质] 荣誉加身
+Hook Hand,钩手,src/data/troll/traits.json,[特质] 巨魔骨钩手
+Hope,希望,src/data/gold/traits.json,[特质] 性格特质
+Horns,角,src/data/troll/traits.json,[特质] 巨魔头上石角
+Horsefriend,马之友,src/data/gold/traits.json,[特质] 亲近马匹
+Howl Of Doom,厄运之嚎,src/data/gold/traits.json,[特质] 术语表 Cry of Doom 风格
+Humble,谦卑,src/data/gold/traits.json,[特质] 阿瑟面前众生平等
+Humble Before My Master,在主人面前谦卑,src/data/gold/traits.json,[特质] 性格特质
+Humility,谦逊,src/data/gold/traits.json,[特质] 性格特质
+Humility In The Face Of Your Betters,在上位者面前谦逊,src/data/gold/traits.json,[特质] 性格特质
+Hungry,饥肠辘辘,src/data/gold/traits.json,[特质] 性格特质
+Hurt,受伤的心,src/data/gold/traits.json,[特质] 情感受伤
+Hypochondriac,疑病症,src/data/gold/traits.json,[特质] 总怀疑自己有病
+I Know This Ship Like My Own Hands,这船我了如指掌,src/data/gold/traits.json,[特质] 船匠特质
+Idealistic,理想主义,src/data/gold/traits.json,[特质] 性格特质
+Idealogue,空想家,src/data/gold/traits.json,[特质] 原文拼写误作Ideologue
+Impecunious,囊中羞涩,src/data/gold/traits.json,[特质] 身无分文
+Imperious Demeanor,倨傲举止,src/data/gold/traits.json,[特质] 沿用 Imperious 专横之意
+Impersonal,冷漠疏离,src/data/gold/traits.json,[特质] 与Bedside Manner相对
+Impressive Hat,气派帽子,src/data/wizard/traits.json,[特质] 帽子极为惹眼
+Impulsive,冲动,src/data/gold/traits.json,[特质] 性格特质
+Incessant Tapping,不停敲打,src/data/gold/traits.json,[特质] 习惯性小动作
+Incomprehensible Diagnosis,天书诊断,src/data/gold/traits.json,[特质] 用难懂诊断掩盖真相
+Inconsiderate,不体谅人,src/data/gold/traits.json,[特质] 性格特质
+Indecisive,优柔寡断,src/data/gold/traits.json,[特质] 性格特质
+Ineffable Feature,不可言喻之貌,src/data/gold/traits.json,[特质] 无法改变的特征
+Infallible Religious Logic,无谬宗教逻辑,src/data/gold/traits.json,[特质] 性格特质
+Ink-stained Hands,墨渍双手,src/data/gold/traits.json,[特质] 抄写员特征
+Inscrutable,高深莫测,src/data/gold/traits.json,[特质] 性格特质
+Insidious Cruelty,阴险残忍,src/data/troll/traits.json,[特质] 巨魔性格特质
+Insightful,洞察入微,src/data/gold/traits.json,[特质] 性格特质
+Insomniac,失眠,src/data/gold/traits.json,[特质] 性格特质
+Inspirational,鼓舞人心,src/data/gold/traits.json,[特质] 呼应特质
+Intense Hatred,刻骨仇恨,src/data/gold/traits.json,[特质] 沿用 Hatred 憎恨
+Intractable,冥顽不化,src/data/gold/traits.json,[特质] 性格特质
+Inured,习以为常,src/data/gold/traits.json,[特质] 对苦难麻木
+Invisible Friend,隐形朋友,src/data/gold/traits.json,[特质] 性格特质
+Invocations of the Damned,诅咒者祷文,src/data/wizard/traits.json,[特质] 黑暗祭司向邪力祈求
+Involuntary Shudders,不由自主地颤抖,src/data/gold/traits.json,[特质] 性格特质
+Iron Hide,铁皮,src/data/troll/traits.json,[特质] 巨魔皮如铁减伤
+Iron Nails,铁指甲,src/data/gold/traits.json,[特质] 身体特质
+Iron Nose,铁鼻子,src/data/gold/traits.json,[特质] 不受恶臭影响
+Iron Stomach,铁胃,src/data/gold/traits.json,[特质] 吃什么都不坏肚子
+Iron Will,钢铁意志,src/data/gold/traits.json,[特质] 抵抗审讯与诱惑
+It Just Might Work!,说不定能行！,src/data/gold/traits.json,[特质] 保留感叹语气
+Jaded,看破红尘,src/data/gold/traits.json,[特质] 阅尽人世而厌倦
+Jaunty,神气活现,src/data/gold/traits.json,[特质] 性格特质
+Jealous,嫉妒,src/data/gold/traits.json,[特质] 性格特质
+Joan Of Arc,圣女贞德,src/data/gold/traits.json,[特质] 典故保留
+Keen Sense Of Humor,幽默敏锐,src/data/gold/traits.json,[特质] 性格特质
+Keen Taste,敏锐味觉,src/data/gold/traits.json,[特质] 对应 Keen Sight 敏锐视力
+Keys To The Church,教堂钥匙,src/data/gold/traits.json,[特质] 被委任掌管教堂
+Kicking The Beast,踢赶牲畜,src/data/gold/traits.json,[特质] 牲畜奴驱赶畜群
+Know It All,万事通,src/data/gold/traits.json,[特质] 自以为无所不知
+Laconic,言简意赅,src/data/gold/traits.json,[特质] 寡言简练
+Landlubber,旱鸭子,src/data/gold/traits.json,[特质] 不谙水性晕船
+Large Ears,大耳朵,src/data/gold/traits.json,[特质] 鼠人听觉灵敏
+Late,总迟到,src/data/wizard/traits.json,[特质] 性格特质
+Lavish Taste,奢侈品味,src/data/gold/traits.json,[特质] 性格特质
+Lazy,懒惰,src/data/gold/traits.json,[特质] 性格特质
+Learned,博学,src/data/gold/traits.json,[特质] 性格特质
+Leprosy,麻风病,src/data/gold/traits.json,[特质] 对应 Leper 麻风病人
+Lesser Muse,小缪斯,src/data/gold/traits.json,[特质] 与大缪斯对应
+Life Is Death,生即是死,src/data/gold/traits.json,[特质] 减少伤痛犹豫
+Lifting Heavy Things,搬举重物,src/data/gold/traits.json,[特质] 力量的呼应特质
+Light Sleeper,浅眠,src/data/gold/traits.json,[特质] 易醒
+Light Touch,轻巧手法,src/data/gold/traits.json,[特质] 巧手的呼应特质
+Linguist,语言学家,src/data/gold/traits.json,[特质] 热衷语言
+Lithe,轻盈柔韧,src/data/gold/traits.json,[特质] 动作流畅
+Loner,独行者,src/data/gold/traits.json,[特质] 性格特质
+Lonesome,孤寂,src/data/gold/traits.json,[特质] 性格特质
+Long Fingered,长手指,src/data/gold/traits.json,[特质] 外貌特质
+Long Of Limb,长臂长腿,src/data/gold/traits.json,[特质] 四肢异常修长
+Long-legged,长腿,src/data/gold/traits.json,[特质] 巨狼步幅大
+Lord's Favorite,领主宠儿,src/data/gold/traits.json,[特质] 沿用 Lord 领主
+Lost,路痴,src/data/gold/traits.json,[特质] 总迷路
+Louis Wu,路易斯·吴,src/data/gold/traits.json,[特质] 科幻人物典故，保留音译
+Love Of The Horse,爱马,src/data/gold/traits.json,[特质] 性格特质
+Low Born,出身卑微,src/data/wizard/traits.json,[特质] 无显赫血统
+Low Cunning,阴狡,src/data/gold/traits.json,[特质] 背叛上级用的狡诈
+Lucky,幸运儿,src/data/gold/traits.json,[特质] 与Luck幸运区分
+Lunatic,月相通,src/data/gold/traits.json,[特质] 总知道月相，双关疯子
+Lupine Intellect,狼之智慧,src/data/gold/traits.json,[特质] 巨狼有智慧
+Lustrous,光彩照人,src/data/gold/traits.json,[特质] 外貌特质
+"Lynx-eyed, Like Burning Coals",猞猁之眼如燃煤,src/data/gold/traits.json,[特质] 术语表
+Mad,疯狂,src/data/gold/traits.json,[特质] 性格特质
+Made Man,自己人,src/data/gold/traits.json,[特质] 工匠互相关照，借黑帮语
+Maggot Connoisseur,蛆虫鉴赏家,src/data/gold/traits.json,[特质] 兽人性格特质
+Maimed,伤残,src/data/gold/traits.json,[特质] 严重毁伤
+Malformed,畸形,src/data/troll/traits.json,[特质] 巨魔外貌
+Man Of Few Words,寡言之人,src/data/gold/traits.json,[特质] 性格特质
+Mangy Coat,疥癣皮毛,src/data/gold/traits.json,[特质] 狼毛杂乱秃斑
+Manly,男子气概,src/data/gold/traits.json,[特质] 性格特质
+Marching,行军,src/data/gold/traits.json,[特质] 兽人懂得齐步走
+Mark Of The Ancient,远古印记,src/data/gold/traits.json,[特质] 狼崽天生印记
+Mark Of The Beast,兽之印记,src/data/gold/traits.json,[特质] 性格特质
+Massive Stature,巨硕身材,src/data/gold/traits.json,[特质] 体形如巨魔
+Massive Stature (Troll),巨硕身材（巨魔）,src/data/troll/traits.json,[特质] 巨魔版本
+Master of Mages,法师之主,src/data/wizard/traits.json,[特质] 魔法学院院长
+Maternal,母性,src/data/gold/traits.json,[特质] 性格特质
+Matriarchal,女家长作风,src/data/gold/traits.json,[特质] 对应族长/女族长
+Maudlin,多愁善感,src/data/gold/traits.json,[特质] 性格特质
+Mean,刻薄,src/data/gold/traits.json,[特质] 性格特质
+Megalomaniac,自大狂,src/data/gold/traits.json,[特质] 幻想家天命所归
+Melodamatic Family,戏精家族,src/data/gold/traits.json,[特质] 原文拼写误作Melodramatic
+Mercenary,唯利是图,src/data/gold/traits.json,[特质] 性格义，非佣兵职业
+Merciful,仁慈,src/data/gold/traits.json,[特质] 与Merciless无情对应
+Metal Plate In The Skull,颅内钢板,src/data/gold/traits.json,[特质] 身体特质
+Meticulous,一丝不苟,src/data/gold/traits.json,[特质] 整洁有条理
+Mind For Small Details,心细如发,src/data/gold/traits.json,[特质] 性格特质
+Mind Numbing Work,枯燥劳作,src/data/troll/traits.json,[特质] 巨魔版本
+Mind Over Matter,心胜于物,src/data/gold/traits.json,[特质] 身体池点转心智池
+Mind-numbing Work,枯燥劳作,src/data/gold/traits.json,[特质] 意志的呼应特质
+Misanthropic,厌恶人类,src/data/gold/traits.json,[特质] 性格特质
+Misplaced Aura,错置灵光,src/data/gold/traits.json,[特质] 沿用 Aura Reading 灵光
+Misshapen,奇形,src/data/troll/traits.json,[特质] 巨魔外貌
+Missing Digit,缺指,src/data/gold/traits.json,[特质] 术语表 Missing Digits
+Misunderstood,遭人误解,src/data/gold/traits.json,[特质] 白化鼠人被迷信者排斥
+Monastic,修院生活,src/data/gold/traits.json,[特质] 对应 Monastic Ritual 修院仪式
+Mossy Coat,苔衣,src/data/troll/traits.json,[特质] 巨魔身覆苔藓
+Murderous,嗜杀,src/data/gold/traits.json,[特质] 性格特质
+Mute,哑巴,src/data/gold/traits.json,[特质] 身体特质
+Muttering,喃喃自语,src/data/gold/traits.json,[特质] 性格特质
+Myopic,严重近视,src/data/gold/traits.json,[特质] 比Near-sighted更重
+Naked,无毛,src/data/gold/traits.json,[特质] 鼠人无毛，非裸体
+Naked Hatred,赤裸裸的憎恨,src/data/gold/traits.json,[特质] 沿用 Hatred 憎恨
+Narcoleptic,嗜睡症,src/data/gold/traits.json,[特质] 性格特质
+Near-sighted,近视,src/data/gold/traits.json,[特质] 身体特质
+Never A Moment Of Peace,永无宁日,src/data/wizard/traits.json,[特质] 得一段纠缠关系
+Never Cry Wolf,绝不喊“狼来了”,src/data/gold/traits.json,[特质] 典故保留
+Night Blooded,夜之血脉,src/data/troll/traits.json,[特质] 巨魔惧日光
+Night Eyed,夜眼,src/data/gold/traits.json,[特质] 鼠人黑暗视物
+Night Eyed (Troll),夜眼（巨魔）,src/data/troll/traits.json,[特质] 巨魔版本
+Night Owl,夜猫子,src/data/gold/traits.json,[特质] 性格特质
+Nihilistic,虚无主义,src/data/gold/traits.json,[特质] 性格特质
+Nimble,手巧,src/data/gold/traits.json,[特质] 双手灵巧
+No-nonsense,干脆利落,src/data/gold/traits.json,[特质] 不说废话
+Nose For Trouble,嗅到麻烦,src/data/gold/traits.json,[特质] 对危险敏感
+Nose Of The Bloodhound,猎犬之鼻,src/data/gold/traits.json,[特质] 凭气味辨认身份
+Numb,麻木,src/data/gold/traits.json,[特质] 鞭下生活不知痛
+Oafishly Charming,憨傻可爱,src/data/troll/traits.json,[特质] 巨魔性格特质
+Obliging,乐于助人,src/data/gold/traits.json,[特质] 性格特质
+Obscure Aura,晦暗灵光,src/data/gold/traits.json,[特质] 灵光难以解读
+Obsessed,着魔,src/data/gold/traits.json,[特质] 性格特质
+Obsessive,偏执成癖,src/data/gold/traits.json,[特质] 矮人话题执念
+Obstinate,固执,src/data/gold/traits.json,[特质] 性格特质
+Odd,古怪,src/data/gold/traits.json,[特质] 性格特质
+Oddly Likeable,莫名讨喜,src/data/gold/traits.json,[特质] 矮人特质
+Odious,可憎,src/data/gold/traits.json,[特质] 性格特质
+Odor Of Spirits,灵体气息,src/data/gold/traits.json,[特质] 狼身染灵体之臭
+Off-kilter,不对劲,src/data/gold/traits.json,[特质] 性格特质
+Opportunist,投机者,src/data/gold/traits.json,[特质] 绝不错过机会
+Ordained,受任圣职,src/data/gold/traits.json,[特质] 阿瑟的受任者
+Organized,井井有条,src/data/gold/traits.json,[特质] 呼应特质
+Ornery,暴躁,src/data/gold/traits.json,[特质] 性格特质
+Other Life,另一种人生,src/data/gold/traits.json,[特质] 性格特质
+Outsider,局外人,src/data/wizard/traits.json,[特质] 带恶名
+Overbite,龅牙,src/data/gold/traits.json,[特质] 外貌特质
+Overworked,过度劳累,src/data/gold/traits.json,[特质] 性格特质
+Pack Rat,囤积鼠,src/data/gold/traits.json,[特质] 鼠人爱囤东西，双关
+Pain Life,痛苦人生,src/data/gold/traits.json,[特质] 减少疼痛犹豫
+Palsy,麻痹,src/data/gold/traits.json,[特质] 术语表 Palsied 麻痹
+Paranoid,多疑,src/data/gold/traits.json,[特质] 性格特质
+Paranoid About The Ship,为船担惊受怕,src/data/gold/traits.json,[特质] 性格特质
+Paranoid Ear,多疑之耳,src/data/gold/traits.json,[特质] 以感知侦测潜行
+Pariah,贱民,src/data/gold/traits.json,[特质] 被社会唾弃
+Passionate,热情,src/data/gold/traits.json,[特质] 性格特质
+Patient,耐心,src/data/gold/traits.json,[特质] 性格特质
+Patriarchal,男家长作风,src/data/gold/traits.json,[特质] 对应族长
+Patriarchal/matriarchal,家长作风,src/data/gold/traits.json,[特质] 对应族长/女族长
+Pegboy,木腿少年,src/data/gold/traits.json,[特质] 水手木腿义肢
+Penny-wise,锱铢必较,src/data/gold/traits.json,[特质] 资源的呼应特质
+Perfect Pitch,绝对音感,src/data/gold/traits.json,[特质] 辨识复现任意音高
+Perfectionist,完美主义者,src/data/gold/traits.json,[特质] 性格特质
+Peripatetic,四处漂泊,src/data/gold/traits.json,[特质] 性格特质
+Perspective,透视法,src/data/gold/traits.json,[特质] 艺术家画立体透视
+Phobia,恐惧症,src/data/gold/traits.json,[特质] 选一种恐惧
+Pickled,泡在酒里,src/data/gold/traits.json,[特质] 酒精腌透，免健康惩罚
+Piercing Gaze,穿透凝视,src/data/gold/traits.json,[特质] 区别于术语 Penetrating Gaze 锐利目光
+Pigpen,邋遢鬼,src/data/gold/traits.json,[特质] 如猪圈般邋遢
+Plain Faced,大众脸,src/data/gold/traits.json,[特质] 长相普通难以辨认
+Pointed Ears,尖耳,src/data/gold/traits.json,[特质] 外貌特质直译
+Poised,泰然自若,src/data/gold/traits.json,[特质] 窘境中仍不慌乱
+Poisonous Ambition,恶毒野心,src/data/gold/traits.json,[特质] 野心如毒
+Poker Face,扑克脸,src/data/gold/traits.json,[特质] 通行说法
+Polite,彬彬有礼,src/data/wizard/traits.json,[特质] 礼貌性格
+Pompous,自命不凡,src/data/gold/traits.json,[特质] 浮夸自大
+Possessed,附身,src/data/gold/traits.json,[特质] 被灵体附身
+Pouched Cheeks,颊囊,src/data/gold/traits.json,[特质] 鼠人可储物的颊囊
+Power Behind The Throne,幕后掌权者,src/data/gold/traits.json,[特质] 王座背后的势力
+Practical,务实,src/data/gold/traits.json,[特质] 性格特质
+Practiced Precision,熟练精准,src/data/gold/traits.json,[特质] 动作娴熟精确
+Practiced Smile,职业微笑,src/data/gold/traits.json,[特质] 练就的笑容
+Pragmatic Outlook,实用主义,src/data/gold/traits.json,[特质] 务实的看法
+Predatory,掠食本性,src/data/gold/traits.json,[特质] 捕食者性情
+Preternaturally Calm,超凡镇定,src/data/gold/traits.json,[特质] 超乎常理的冷静
+Problems,毛病,src/data/gold/traits.json,[特质] 村中傻子的问题
+Profuse Sweat,大汗淋漓,src/data/gold/traits.json,[特质] 多汗
+Prominent Scar,醒目伤疤,src/data/gold/traits.json,[特质] 显眼的疤痕
+Prone To Exaggeration,爱夸大其词,src/data/gold/traits.json,[特质] 喜欢夸张
+Psychotic,精神失常,src/data/gold/traits.json,[特质] 精神病态
+Pyromaniac,纵火狂,src/data/gold/traits.json,[特质] 迷恋火焰
+Querulous,牢骚满腹,src/data/gold/traits.json,[特质] 爱抱怨
+Quick Study,学得快,src/data/gold/traits.json,[特质] 学习迅速
+Quick-blooded,血行迅疾,src/data/gold/traits.json,[特质] 鼠人代谢快
+Quick-step,疾步,src/data/gold/traits.json,[特质] 传信者快步奔走
+Quick-witted,机敏,src/data/gold/traits.json,[特质] 反应快，减少犹豫
+Quickened Pulse,心跳加速,src/data/gold/traits.json,[特质] 心动的瞬间
+Quiescent,沉寂,src/data/gold/traits.json,[特质] 抵消人生历程特质
+Quiet,安静,src/data/gold/traits.json,[特质] 行事无声
+Quirky,古怪,src/data/gold/traits.json,[特质] 小怪癖
+Rabble-rouser,煽动家,src/data/gold/traits.json,[特质] 煽动群众者
+Rainman,雨人,src/data/gold/traits.json,[特质] 电影典故，瞬间计数
+Rapier Wit,妙语如剑,src/data/gold/traits.json,[特质] 如细剑般锋利的机智
+Rare Talent,罕见天赋,src/data/gold/traits.json,[特质] 兽人罕有的手艺
+Rarified,超凡脱俗,src/data/gold/traits.json,[特质] 高雅出尘
+Rash,轻率,src/data/gold/traits.json,[特质] 与Reckless区分
+Rat-speak,鼠语,src/data/gold/traits.json,[特质] 与鼠类低等语言
+Rat-squeak,吱吱鼠语,src/data/gold/traits.json,[特质] 能与鼠交谈
+Raven-friend,渡鸦之友,src/data/gold/traits.json,[特质] 狼与渡鸦之谊
+Reckless,鲁莽,src/data/gold/traits.json,[特质] 不顾后果
+Recondite,高深莫测,src/data/gold/traits.json,[特质] 深奥难懂
+Red Cheeks,双颊绯红,src/data/gold/traits.json,[特质] 外貌特质
+Red-blooded,血气方刚,src/data/gold/traits.json,[特质] 热血阳刚
+Reeks Of Alcohol,满身酒气,src/data/gold/traits.json,[特质] 散发酒味
+Regal Bearing,王者风范,src/data/gold/traits.json,[特质] 帝王仪态
+Reincarnated,转世重生,src/data/gold/traits.json,[特质] 轮回之身
+Remarkable Flatulence,屁声惊人,src/data/gold/traits.json,[特质] 显著胀气，诙谐
+Remote,疏离,src/data/gold/traits.json,[特质] 冷淡疏远
+Repulsive Blood,恶血,src/data/troll/traits.json,[特质] 血液有毒腐蚀
+Resigned (To Death),视死如归,src/data/gold/traits.json,[特质] 沿用词表Resigned to Death
+Resigned To Fate,听天由命,src/data/gold/traits.json,[特质] 顺从命运
+Resolute,坚决,src/data/gold/traits.json,[特质] 意志坚定
+Restless,躁动不安,src/data/gold/traits.json,[特质] 无法安定
+Revered,德高望重,src/data/gold/traits.json,[特质] 受人尊崇
+Reviled,遭人唾弃,src/data/gold/traits.json,[特质] 被人憎恶
+Rhetorical,善辞令,src/data/gold/traits.json,[特质] 词表Rhetoric修辞
+Ridged Brow,嶙峋眉骨,src/data/troll/traits.json,[特质] 如峭壁的眉骨
+Righteous,正义凛然,src/data/gold/traits.json,[特质] 自认正义
+Road Weary,风尘仆仆,src/data/gold/traits.json,[特质] 旅途劳顿
+Robust,强健,src/data/gold/traits.json,[特质] 心智点转身体池
+Romantic,浪漫,src/data/gold/traits.json,[特质] 性格特质
+Rough Hands,粗糙双手,src/data/gold/traits.json,[特质] 劳作之手
+Rower,桨手,src/data/gold/traits.json,[特质] 划桨加成
+Royal Favorite,王室宠臣,src/data/gold/traits.json,[特质] 受君王宠信
+Ruddy Complexion,面色红润,src/data/gold/traits.json,[特质] 外貌特质
+Running (Away),逃跑,src/data/gold/traits.json,[特质] 惊恐奔逃
+Sadist,施虐狂,src/data/gold/traits.json,[特质] 以施痛为乐
+Sadistic,残虐成性,src/data/gold/traits.json,[特质] 与Sadist区分
+Sailor's Oath,水手粗口,src/data/gold/traits.json,[特质] 骂人如水手
+Sane,神智清醒,src/data/gold/traits.json,[特质] 理智健全
+Saturnine,郁郁寡欢,src/data/dark_elf/traits.json,[特质] 阴沉忧郁，抗激情
+Savage Consequences,凶残报复,src/data/gold/traits.json,[特质] 加倍奉还
+Savvy,精明老练,src/data/gold/traits.json,[特质] 船长善于索取
+Scaly Skin,鳞皮,src/data/troll/traits.json,[特质] 巨魔鳞甲皮肤
+Scapegoat,替罪羊,src/data/gold/traits.json,[特质] 性格特质
+Scarred,伤痕累累,src/data/gold/traits.json,[特质] 满身疤痕
+Scheming,工于心计,src/data/gold/traits.json,[特质] 总在谋划
+Screaming,尖叫,src/data/gold/traits.json,[特质] 性格特质
+Sea Legs,惯于风浪,src/data/gold/traits.json,[特质] 海上站得稳不晕船
+Seasoned,老练,src/data/gold/traits.json,[特质] 经验丰富
+Secretive,讳莫如深,src/data/gold/traits.json,[特质] 遮掩秘密
+Secretly Worships The Black Sea God,暗中崇拜黑海之神,src/data/gold/traits.json,[特质] 直译神名
+Seemingly Concerned,假意关切,src/data/gold/traits.json,[特质] 貌似关心
+Seen It All,阅尽世事,src/data/gold/traits.json,[特质] 什么都见过
+Seen Not Heard,默然侍立,src/data/gold/traits.json,[特质] 只可见不可闻
+Self-confident,自信,src/data/gold/traits.json,[特质] 性格特质
+Self-satisfied,自鸣得意,src/data/gold/traits.json,[特质] 自我满足
+Sense Of Direction,方向感,src/data/gold/traits.json,[特质] 不易迷路
+Sense Of Distance,距离感,src/data/gold/traits.json,[特质] 目测距离
+Sense Of Entitlement,特权心态,src/data/gold/traits.json,[特质] 自认理所应得
+Serious,严肃认真,src/data/gold/traits.json,[特质] 对手艺一丝不苟
+Servant Of The Citadel,要塞之仆,src/data/gold/traits.json,[特质] 词表Citadel要塞
+Shadow Coat,暗影皮毛,src/data/gold/traits.json,[特质] 狼的暗色毛皮
+Sharp Dresser,衣着光鲜,src/data/gold/traits.json,[特质] 与Well Dressed区分
+Sharpened Incisors,利门齿,src/data/gold/traits.json,[特质] 鼠人锋利门牙
+Shouting,大喊大叫,src/data/gold/traits.json,[特质] 性格特质
+Show No Fear,面无惧色,src/data/gold/traits.json,[特质] 呼应钢心
+Shrewd,精明,src/data/gold/traits.json,[特质] 性格特质
+Sick,患病,src/data/gold/traits.json,[特质] 生病状态
+Sickly,体弱多病,src/data/gold/traits.json,[特质] 易生病
+Sight Of The Bat,蝙蝠之视,src/data/gold/traits.json,[特质] 仿词表鹰之视
+Silent Hatred,无声之恨,src/data/gold/traits.json,[特质] 仿词表无声之怒
+Singed,烧焦,src/data/gold/traits.json,[特质] 被火燎过
+Single-minded,心无旁骛,src/data/gold/traits.json,[特质] 一旦决定难以动摇
+Sixth Sense,第六感,src/data/gold/traits.json,[特质] 预感危险
+Skeptical,怀疑一切,src/data/gold/traits.json,[特质] 与Suspicious区分
+Skin Of An Apple,苹果肌肤,src/data/gold/traits.json,[特质] 肤如苹果
+Skinny,瘦削,src/data/gold/traits.json,[特质] 外貌特质
+Skittish,易受惊,src/data/gold/traits.json,[特质] 鼠人怕响声
+Sleek,光鲜,src/data/gold/traits.json,[特质] 顺滑亮泽
+Sleep-talker,说梦话,src/data/gold/traits.json,[特质] 梦呓
+Slippery,滑溜,src/data/gold/traits.json,[特质] 难以抓住
+Slow,迟钝,src/data/gold/traits.json,[特质] 反应慢
+Smells Like A Horse,一身马味,src/data/gold/traits.json,[特质] 气味特质
+Soft Step,轻步,src/data/gold/traits.json,[特质] 窃贼的步法
+Solipsistic,唯我论,src/data/gold/traits.json,[特质] 自我中心
+Solitary,独来独往,src/data/troll/traits.json,[特质] 巨魔孤僻
+Somnambulist,梦游者,src/data/gold/traits.json,[特质] 梦游
+Sonorous Voice,嗓音悦耳,src/data/gold/traits.json,[特质] 甜美动听之声
+Spartacus,斯巴达克斯,src/data/gold/traits.json,[特质] 人名典故
+Speaker Of The Secret Language,秘语言者,src/data/wizard/traits.json,[特质] 说秘密语言之人
+Spectacular,光彩夺目,src/data/gold/traits.json,[特质] 引人注目
+Spirit Ears,灵耳,src/data/gold/traits.json,[特质] 聆听灵界
+Spirit Familiar,灵体魔宠,src/data/wizard/traits.json,[特质] 词表Spirit灵体
+Spirit Nose,灵鼻,src/data/gold/traits.json,[特质] 嗅探灵界
+Spitting,爱吐口水,src/data/gold/traits.json,[特质] 习惯动作
+Squinty,眯缝眼,src/data/gold/traits.json,[特质] 外貌特质
+Stained,蒙污,src/data/gold/traits.json,[特质] 狼群出气筒
+Stark Madness,彻底疯狂,src/data/gold/traits.json,[特质] 全然癫狂
+Starved,饥饿,src/data/gold/traits.json,[特质] 饿得厉害
+Stealing,偷窃,src/data/gold/traits.json,[特质] 盗窃本能
+Stentorious Voice,洪亮嗓音,src/data/gold/traits.json,[特质] 词表Stentorious洪亮
+Stern Demeanor,神情严厉,src/data/gold/traits.json,[特质] 词表Stern严厉
+Stink Of The Ancient,远古之臭,src/data/gold/traits.json,[特质] 幽灵的远古气味
+Stinky,臭烘烘,src/data/gold/traits.json,[特质] 气味特质
+Stoic,坚忍,src/data/gold/traits.json,[特质] 面对危险不动声色
+Stolid,木讷,src/data/gold/traits.json,[特质] 迟钝不动情
+Stone Skin,石皮,src/data/troll/traits.json,[特质] 巨魔石质皮肤
+Stone's Age,岩石之龄,src/data/troll/traits.json,[特质] 巨魔与石同源的寿命
+Strange,奇特,src/data/gold/traits.json,[特质] 与Quirky/Wierd区分
+Strapping,魁梧,src/data/gold/traits.json,[特质] 身材高大强壮
+Street Smart,混迹街头,src/data/gold/traits.json,[特质] 与Streetwise区分
+Strong-willed,意志坚强,src/data/gold/traits.json,[特质] 性格特质
+Stubborn,固执,src/data/gold/traits.json,[特质] 智斗中坚持己见
+Stung Once (Once),一朝被蛇咬,src/data/gold/traits.json,[特质] 吃过一次亏
+Stupid,愚蠢,src/data/gold/traits.json,[特质] 社交受罚
+Stutter,口吃,src/data/gold/traits.json,[特质] 说话结巴
+Submissive,顺从,src/data/gold/traits.json,[特质] 狼对首领服从
+Suicidal,自毁倾向,src/data/wizard/traits.json,[特质] 致命伤得人格点
+Suspicious,多疑,src/data/gold/traits.json,[特质] 性格特质
+Swaggering,趾高气扬,src/data/gold/traits.json,[特质] 大摇大摆
+Sword Of The White Towers,白塔之剑,src/data/gold/traits.json,[特质] 剑歌者所属
+Sworn To Protect,誓言守护,src/data/gold/traits.json,[特质] 守护誓约
+Sworn To The Lord Protector,宣誓效忠护国主,src/data/gold/traits.json,[特质] 词表Lord Protector
+Sworn To The Lord Protector (Or Etharch Or Althing),宣誓效忠护国主（或埃塔君主或阿尔庭）,src/data/gold/traits.json,[特质] 词表名称
+Sworn To The Order,宣誓效忠修会,src/data/gold/traits.json,[特质] 军事修会誓言
+Taciturn,沉默寡言,src/data/gold/traits.json,[特质] 话少
+Tail,尾巴,src/data/gold/traits.json,[特质] 鼠人尾巴
+Tainted Legacy,污浊血脉,src/data/gold/traits.json,[特质] 祖先与邪物交合
+Tall Tale Teller,吹牛大王,src/data/gold/traits.json,[特质] 爱讲夸张故事
+Taste For Man-flesh,嗜食人肉,src/data/gold/traits.json,[特质] 喜食人肉
+Temperamental,喜怒无常,src/data/gold/traits.json,[特质] 情绪多变
+Tenuous,摇摆不定,src/data/gold/traits.json,[特质] 立场不牢靠
+The Bigger They Come...,块头越大……,src/data/gold/traits.json,[特质] 越大越难倒，典故
+The Killer,杀手本色,src/data/gold/traits.json,[特质] 时刻警觉
+The Story,故事在手,src/data/gold/traits.json,[特质] 总有合适故事
+Thick Skin,脸皮厚,src/data/gold/traits.json,[特质] 不为激将所动
+Thousand-yard Stare,千码凝视,src/data/gold/traits.json,[特质] 战场创伤通行译法
+Thunderous Snoring,鼾声如雷,src/data/gold/traits.json,[特质] 打鼾响亮
+Tidy Aspect,仪容整洁,src/data/gold/traits.json,[特质] 衣着整齐
+Timid,胆小,src/data/gold/traits.json,[特质] 怯懦
+Toiling,埋头苦干,src/data/gold/traits.json,[特质] 劳工耐劳
+Tolerant,宽容,src/data/gold/traits.json,[特质] 性格特质
+Tongueless,无舌,src/data/gold/traits.json,[特质] 舌头被割
+Tonsured,剃度,src/data/gold/traits.json,[特质] 削发入会
+Toothy Maw,利齿巨口,src/data/troll/traits.json,[特质] 巨魔巨颚
+Touch Of Ages,岁月之触,src/data/gold/traits.json,[特质] 触物读史
+Touch Of Madness,一丝疯狂,src/data/gold/traits.json,[特质] 略带癫狂
+Touch Of The Devil,恶魔之触,src/data/gold/traits.json,[特质] 手如魔
+Tough (Troll),皮实（巨魔）,src/data/troll/traits.json,[特质] 沿用词表Tough
+Tough As Nails,钢筋铁骨,src/data/gold/traits.json,[特质] 不惧疼痛
+Troll Savant,巨魔奇才,src/data/troll/traits.json,[特质] 会说完整句子的巨魔
+Troll Skin,巨魔之皮,src/data/troll/traits.json,[特质] 坚韧皮革般皮肤
+Troll Speak,巨魔语,src/data/gold/traits.json,[特质] 与巨魔沟通
+Trusting,轻信,src/data/gold/traits.json,[特质] 易信他人
+Trustworthy,值得信赖,src/data/gold/traits.json,[特质] 性格特质
+Tunnel Vision,穴居视力,src/data/gold/traits.json,[特质] 地下暗处视物
+Turgid,浮夸,src/data/gold/traits.json,[特质] 言辞臃肿
+Tusks,獠牙,src/data/troll/traits.json,[特质] 巨魔突出犬齿
+Ugly,丑陋,src/data/gold/traits.json,[特质] 外貌特质
+Ugly Reputation,名声丑恶,src/data/gold/traits.json,[特质] 船医恶名
+Unbeliever,无信者,src/data/gold/traits.json,[特质] 不信神
+Unctuous,油腻,src/data/gold/traits.json,[特质] 令人反感
+Underbite,地包天,src/data/gold/traits.json,[特质] 下颌前突
+Underpaid,薪水微薄,src/data/gold/traits.json,[特质] 报酬过低
+Uneasy,惴惴不安,src/data/gold/traits.json,[特质] 不安
+Unflinching,毫不退缩,src/data/troll/traits.json,[特质] 铁盾卫坚守
+Unheeded,无人理会,src/data/gold/traits.json,[特质] 呼应低调
+Unhinged,癫狂,src/data/wizard/traits.json,[特质] 与Psychotic区分
+Unlucky,倒霉,src/data/gold/traits.json,[特质] 运气差
+Unrelenting Hatred,无尽憎恨,src/data/gold/traits.json,[特质] 不懈之恨
+Unrelenting Savagery,无尽野蛮,src/data/gold/traits.json,[特质] 取首者嗜血
+Unsavory Madman,讨嫌疯子,src/data/gold/traits.json,[特质] 令人厌恶的疯子
+Urbane,温文尔雅,src/data/gold/traits.json,[特质] 都市化有教养
+Vegetarian,素食,src/data/gold/traits.json,[特质] 野生鼠人吃素
+Venal,贪腐,src/data/gold/traits.json,[特质] 沿用词表Venal
+Veneer Of Obedience,表面顺从,src/data/gold/traits.json,[特质] 顺从的外表
+Vengeful,睚眦必报,src/data/dark_elf/traits.json,[特质] 暗精灵报复
+Versatile,灵活多变,src/data/wizard/traits.json,[特质] 巫术多用
+Vested,祭衣加身,src/data/gold/traits.json,[特质] 祭司受祭服
+Vestigial Wings,退化之翼,src/data/troll/traits.json,[特质] 小蝙蝠翼
+Visionary Faith,异象信仰,src/data/gold/traits.json,[特质] 异象者信仰
+Vitriolic,尖酸刻薄,src/data/gold/traits.json,[特质] 言辞恶毒
+Vocal,直言不讳,src/data/gold/traits.json,[特质] 爱发声
+Voice In The Crowd,人群之声,src/data/gold/traits.json,[特质] 人群中的一员
+Voracious Carnivore,饕餮食肉,src/data/troll/traits.json,[特质] 巨魔贪食肉
+Wanderlust,漫游癖,src/data/gold/traits.json,[特质] 孤狼四处游荡
+Wary,戒备,src/data/gold/traits.json,[特质] 与Watchful区分
+Weak-willed,意志薄弱,src/data/gold/traits.json,[特质] 易被说服
+Weather Sense,天气感知,src/data/gold/traits.json,[特质] 关节预报天气
+Webbed Fingers And Toes,蹼指蹼趾,src/data/troll/traits.json,[特质] 游泳步幅
+Weight Of The World,世界之重,src/data/gold/traits.json,[特质] 肩负重担
+Well Appointed,装束考究,src/data/gold/traits.json,[特质] 与Well Dressed区分
+Well Dressed,衣着得体,src/data/gold/traits.json,[特质] 穿着体面
+Well Traveled,游历广泛,src/data/wizard/traits.json,[特质] 周游各地
+Whip Tail,鞭尾,src/data/gold/traits.json,[特质] 细长鼠尾
+White-gold Wielder,白金执掌者,src/data/gold/traits.json,[特质] 典故，持白金之人
+Wickedly Clever,狡黠过人,src/data/troll/traits.json,[特质] 巨魔的狡猾
+Wierd,怪异,src/data/gold/traits.json,[特质] 原文拼写Weird
+Wise Aphorisms,智慧格言,src/data/gold/traits.json,[特质] 精灵谚语
+Witch Flesh,巫肉,src/data/troll/traits.json,[特质] 巢母的魔法之躯
+Wolf's Eyes,狼眼,src/data/gold/traits.json,[特质] 狼的夜视
+Wolf's Snout,狼鼻,src/data/gold/traits.json,[特质] 沿用词表Wolf Snout
+Wolfish Scavenger,狼性拾荒者,src/data/gold/traits.json,[特质] 词表Scavenger拾荒者
+Wolverine,金刚狼,src/data/gold/traits.json,[特质] 典故，伤愈快
+Woodland Ear,林地之耳,src/data/gold/traits.json,[特质] 狼的听觉
+Worldly,世故,src/data/gold/traits.json,[特质] 通晓世事
+Xenophobic,排外,src/data/gold/traits.json,[特质] 仇外
+You Should Know Better Than That!,你早该明白的！,src/data/gold/traits.json,[特质] 口头禅式特质
+Yowling,哀嚎,src/data/gold/traits.json,[特质] 嚎叫
+Zealot,狂热者,src/data/gold/traits.json,[特质] 狂热信徒
+Abbey-wise,修道院通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Alms-wise,施舍通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Ambush-wise,伏击通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Ancient And Obscure History,古代与冷僻历史,src/data/gold/lifepaths/elf.json,[技能] 按词表古代历史+冷僻历史
+Ancient History,古代历史,src/data/dark_elf/lifepaths.json; src/data/gold/lifepaths/dwarf.json; src/data/gold/lifepaths/man.json; src/data/wizard/lifepaths.json,[技能] 词表
+Animal-wise,动物通晓,src/data/dark_elf/lifepaths.json,[技能] “-wise”译“通晓”
+Antique-wise,古董通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Apocalypse-wise,末日通晓,src/data/gold/lifepaths/man.json; src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Appropriate Weapons,相应武器,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] 词表
+Assassination-wise,暗杀通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Aura-wise,灵光通晓,src/data/wizard/lifepaths.json,[技能] 对应灵光解读
+Authority-wise,权威通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Baggage Train-wise,辎重队通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Battle-wise,战斗通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Bay-wise,海湾通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Beast Of Burden-wise,驮兽通晓,src/data/gold/lifepaths/orc.json,[技能] “-wise”译“通晓”
+Bee Husbandry,养蜂,src/data/gold/lifepaths/roden.json,[技能] 仿养禽/养犬
+Bee-wise,蜜蜂通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Bone Headed-wise,榆木脑袋通晓,src/data/wizard/lifepaths.json,[技能] 意译“蠢笨之人”
+Bone-wise,骨头通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Books-wise,书籍通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Border-wise,边境通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Boss-wise,老板通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Bread-wise,面包通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Brew-wise,酿酒通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Cage-wise,笼子通晓,src/data/gold/lifepaths/wolf.json,[技能] “-wise”译“通晓”
+Campaign History,战役史,src/data/gold/lifepaths/man.json,[技能] 词表
+Caravan-wise,商队通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Cat-wise,猫通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Cavalry-wise,骑兵通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Cell-wise,牢房通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Cemetery-wise,墓园通晓,src/data/gold/lifepaths/man.json,[技能] 与墓地(Graveyard)区分
+Chain-wise,锁链通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Charcoal-wise,木炭通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Cheat-wise,老千通晓,src/data/gold/lifepaths/dwarf.json,[技能] 与作弊通晓区分
+Child-wise,孩童通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Church Politics-wise,教会政治通晓,src/data/gold/lifepaths/man.json,[技能] 教会同教会法
+Church Treasure-wise,教会财宝通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Church-wise,教会通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Circuit-wise,巡回通晓,src/data/gold/lifepaths/man.json,[技能] 巡回路线
+Clique-wise,小圈子通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Clothing-wise,服饰通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Coin-wise,钱币通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Commodities-wise,商品通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Conversion-wise,皈依通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Court Gossip-wise,宫廷闲话通晓,src/data/gold/lifepaths/man.json,[技能] 同闲话通晓
+Craft-wise,工艺通晓,src/data/gold/lifepaths/elf.json,[技能] “-wise”译“通晓”
+Creepy Priest-wise,瘆人祭司通晓,src/data/wizard/lifepaths.json,[技能] Creepy=瘆人
+Crew-wise,船员通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Cult Doctrine,邪教教义,src/data/gold/lifepaths/man.json,[技能] 词表
+Cult-wise,邪教通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Currency-wise,货币通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Current-wise,水流通晓,src/data/gold/lifepaths/man.json,[技能] 水流/洋流
+Customer-wise,顾客通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Dark Arts-wise,黑暗技艺通晓,src/data/wizard/lifepaths.json,[技能] 仿死亡技艺
+Dark Elf-wise,暗黑精灵通晓,src/data/dark_elf/lifepaths.json,[技能] terms中Dark Elf=暗黑精灵
+Dark Secret-wise,黑暗秘密通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Darkened Streets-wise,暗街通晓,src/data/gold/lifepaths/man.json,[技能] 同Darkened Street-wise
+Deal-wise,交易通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Death Cult-wise,死亡邪教通晓,src/data/wizard/lifepaths.json,[技能] 同死亡邪教背景
+Death-wise,死亡通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Debt-wise,债务通晓,src/data/gold/lifepaths/man.json,[技能] 词表
+Dirty Secrets-wise,肮脏秘密通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Disease-wise,疾病通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Disgusting Necromancer-wise,恶心死灵法师通晓,src/data/wizard/lifepaths.json,[技能] Necromancer=死灵法师
+Dog Husbandry,养犬,src/data/gold/lifepaths/man.json,[技能] 词表
+Dog-wise,狗通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/wolf.json,[技能] “-wise”译“通晓”
+Domain-wise,领域通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Drink-wise,酒水通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Drum,鼓,src/data/gold/lifepaths/man.json,[技能] 乐器技能
+Drunk Husband-wise,醉鬼丈夫通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Dupe-wise,冤大头通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Elven Politics-wise,精灵政治通晓,src/data/dark_elf/lifepaths.json,[技能] “-wise”译“通晓”
+Elven Songs-wise,精灵之歌通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Excuses-wise,借口通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Exorcist Ritual,驱魔仪式,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Fabric-wise,布料通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Facet-wise,要素通晓,src/data/wizard/lifepaths.json,[技能] facets=要素
+Fake-wise,赝品通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Fall Grass-wise,秋草通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Fashion-wise,时尚通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Fat Merchant-wise,胖商人通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Feet-wise,双脚通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Flower-wise,花卉通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Flute,长笛,src/data/gold/lifepaths/elf.json; src/data/gold/lifepaths/man.json,[技能] 词表
+Fool-wise,愚者通晓,src/data/wizard/lifepaths.json,[技能] 同愚者连祷
+Foreign Doctrine,外国教义,src/data/gold/lifepaths/man.json,[技能] 词表
+Foreign History,外国历史,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Fortress-wise,城塞通晓,src/data/gold/lifepaths/man.json,[技能] 与堡垒通晓(Hold)区分
+Garotte,绞索,src/data/dark_elf/lifepaths.json,[技能] 词表Garrote
+God of Death-wise,死神通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Graft-wise,贪赃通晓,src/data/gold/lifepaths/man.json,[技能] graft=贪污
+Grape-wise,葡萄通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Grave-wise,坟墓通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Graveyard-wise,墓地通晓,src/data/gold/lifepaths/man.json; src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Guard-wise,卫兵通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Guest-wise,宾客通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Guts-wise,内脏通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Hazing-wise,欺凌通晓,src/data/gold/lifepaths/roden.json,[技能] 同受过欺凌
+Herb-wise,草药通晓,src/data/gold/lifepaths/elf.json,[技能] “-wise”译“通晓”
+Herbalist-wise,草药师通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Heresy-wise,异端通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Heretical Doctrine,异端教义,src/data/gold/lifepaths/man.json,[技能] 词表
+Honey-wise,蜂蜜通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Horse Husbandry,养马,src/data/gold/lifepaths/man.json,[技能] 词表
+Horse-wise,马匹通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Hospital-wise,济贫院通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] 同济贫院看守长
+Hostel-wise,旅舍通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Husband-wise,丈夫通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Hypocritical Bastards-wise,伪君子通晓,src/data/gold/lifepaths/dwarf.json,[技能] 词表
+Inane Request-wise,无谓请求通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Inner Workings-wise,内部运作通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Instructor,教导,src/data/wizard/lifepaths.json,[技能] 作技能用，取Instruction译名
+Junk-wise,破烂通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] junk=废品
+Kick Me-wise,受气包通晓,src/data/gold/lifepaths/roden.json,[技能] 意译
+Knife-wise,匕首通晓,src/data/gold/lifepaths/roden.json,[技能] Knife=匕首
+Landlord-wise,房东通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Latrine-wise,茅厕通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Law-wise,法律通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Lazy Bastard-wise,懒鬼通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Leather-wise,皮革通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Library-wise,书库通晓,src/data/gold/lifepaths/man.json; src/data/wizard/lifepaths.json,[技能] 同秘法书库
+Local History,地方历史,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Local Law-wise,地方法律通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Lock-wise,锁具通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Loot-wise,战利品通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Lost Secrets-wise,失落秘密通晓,src/data/gold/lifepaths/roden.json,[技能] 同失落宝藏通晓
+Lynch Mob-wise,私刑暴民通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Lyre,里拉琴,src/data/gold/lifepaths/elf.json,[技能] 词表
+Mad Invention-wise,疯狂发明通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Manor-wise,庄宅通晓,src/data/gold/lifepaths/man.json,[技能] 同庄宅
+Map-wise,地图通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Materials-wise,材质通晓,src/data/gold/lifepaths/man.json,[技能] 词表Materials
+Mead-wise,蜜酒通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Mineral-wise,矿物通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Minister-wise,大臣通晓,src/data/gold/lifepaths/man.json,[技能] 同市政大臣
+Monastic Ritual,修院仪式,src/data/gold/lifepaths/man.json,[技能] 词表
+Mount-wise,坐骑通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Mountain-wise,山岭通晓,src/data/gold/lifepaths/dwarf.json,[技能] “-wise”译“通晓”
+Mounted Combat,骑战,src/data/gold/lifepaths/wolf.json,[技能] 同骑战训练
+Murder-wise,谋杀通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json; src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Nail-wise,钉子通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Night Watch-wise,守夜人通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Nut And Berry-wise,坚果与浆果通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Obscure History,冷僻历史,src/data/dark_elf/lifepaths.json; src/data/gold/lifepaths/dwarf.json; src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json; src/data/wizard/lifepaths.json,[技能] 词表
+Omen-wise,预兆通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Orc Rituals-wise,兽人仪式通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Orc Servant-wise,兽人仆从通晓,src/data/wizard/lifepaths.json,[技能] Servant(Orc)=仆从
+Pack-wise,狼群通晓,src/data/gold/lifepaths/orc.json; src/data/gold/lifepaths/wolf.json,[技能] 同狼群礼仪
+Paint-wise,颜料通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Paperwork-wise,文书工作通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Parish-wise,教区通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Park-wise,园林通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Path-wise,路径通晓,src/data/gold/lifepaths/wolf.json,[技能] “-wise”译“通晓”
+Paths-wise,路径通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Pecking Order-wise,尊卑次序通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Pest-wise,害虫通晓,src/data/gold/lifepaths/man.json; src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Petitioner-wise,请愿者通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Pig-wise,猪通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Pirate Cove-wise,海盗湾通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Pirates-wise,海盗通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Plant-wise,植物通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Prayer-wise,祈祷通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Profanity-wise,脏话通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Promise-wise,承诺通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Pup-wise,幼崽通晓,src/data/gold/lifepaths/wolf.json,[技能] “-wise”译“通晓”
+Quack-wise,庸医通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Ransom-wise,赎金通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Relic-wise,圣物通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Religious History,宗教历史,src/data/gold/lifepaths/man.json,[技能] 词表
+Religious Rumor-wise,宗教传闻通晓,src/data/gold/lifepaths/man.json,[技能] 同传闻通晓
+Rider Training,骑乘训练,src/data/gold/lifepaths/wolf.json,[技能] 词表
+Ridiculous Request-wise,荒唐请求通晓,src/data/gold/lifepaths/man.json,[技能] 同Rediculous Request-wise
+Righteous Priest-wise,正直祭司通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Riot-wise,暴乱通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+River-wise,河流通晓,src/data/gold/lifepaths/wolf.json,[技能] “-wise”译“通晓”
+Rock-wise,岩石通晓,src/data/gold/lifepaths/man.json; src/data/troll/lifepaths.json,[技能] “-wise”译“通晓”
+Roof-wise,屋顶通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Rope-wise,绳索通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Royal Parks-wise,王室园林通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Sail-wise,船帆通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Scent-wise,气味通晓,src/data/gold/lifepaths/wolf.json,[技能] “-wise”译“通晓”
+Scheme-wise,诡计通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+School of Magic-wise,魔法学派通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Scurvy-wise,坏血病通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Sea-wise,大海通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Seaman-wise,海员通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Secret Cult Worship-wise,秘密邪教崇拜通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Secret-wise,秘密通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Seed-wise,种子通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Shoal-wise,浅滩通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Shoe-wise,鞋子通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Shovel-wise,铁锹通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Shrine-wise,神龛通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Slavery-wise,奴隶制通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Soot-wise,煤烟通晓,src/data/gold/lifepaths/dwarf.json,[技能] “-wise”译“通晓”
+Spirit-wise,灵体通晓,src/data/wizard/lifepaths.json,[技能] Spirit=灵体
+Stone-wise,石材通晓,src/data/gold/lifepaths/dwarf.json; src/data/gold/lifepaths/man.json,[技能] 同石材工艺
+Summoner-wise,召唤师通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Superstition-wise,迷信通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Sweet Tooth-wise,甜食通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Swordsman-wise,剑士通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Tar-wise,焦油通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Tax-wise,税务通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Temple-wise,神殿通晓,src/data/gold/lifepaths/man.json,[技能] 同神殿祭司
+Tithe-wise,什一税通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Tomb-wise,墓穴通晓,src/data/wizard/lifepaths.json,[技能] 同墓穴守卫
+Torture Devices-wise,刑具通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Town-wise,城镇通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Trail-wise,小径通晓,src/data/gold/lifepaths/wolf.json,[技能] 同Trails-wise
+Traitor-wise,叛徒通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Traveler-wise,旅人通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Tree-wise,树木通晓,src/data/gold/lifepaths/elf.json; src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Trial By Combat-wise,决斗审判通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Trouble-wise,麻烦通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Troubled Student-wise,问题学生通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Undermining-wise,暗中破坏通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Vessel-wise,容器通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+Village Secrets-wise,村庄秘密通晓,src/data/gold/lifepaths/man.json,[技能] 同Village Secret-wise
+Walking Corpse-wise,行尸通晓,src/data/wizard/lifepaths.json,[技能] “-wise”译“通晓”
+War-wise,战争通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Waterworks-wise,水利工程通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Wealth-wise,财富通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Wealthy-wise,富人通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Weapon Of Choice,惯用武器,src/data/gold/lifepaths/roden.json,[技能] 与ui.json一致
+Wholesale-wise,批发通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Wife-wise,妻子通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Window-wise,窗户通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Work-wise,劳作通晓,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+World Domination-wise,统治世界通晓,src/data/gold/lifepaths/roden.json,[技能] “-wise”译“通晓”
+Worshipper-wise,信众通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+Writ-wise,令状通晓,src/data/gold/lifepaths/man.json,[技能] “-wise”译“通晓”
+A Touch Of Madness,一丝疯狂,src/data/gold/lifepaths/man.json,[特质] 同Touch Of Madness
+Academic,学究气,src/data/gold/lifepaths/man.json; src/data/gold/lifepaths/roden.json,[特质] 特质，区别于技能类别“学术”
+Adventurous Palate,口味猎奇,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Beloved,受人爱戴,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Boring,乏味,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Calloused Fingers,指生老茧,src/data/gold/lifepaths/roden.json,[特质] 参照满手老茧
+Calmly Paranoid,冷静多疑,src/data/gold/lifepaths/wolf.json,[特质] Paranoid=多疑
+Cassandra,卡珊德拉,src/data/gold/lifepaths/man.json,[特质] 希腊神话人名音译
+Cautious,谨慎,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Cocky,自负,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Cold Blooded,冷血,src/data/dark_elf/lifepaths.json,[特质] 词表
+Cold-hearted,冷酷,src/data/gold/lifepaths/roden.json,[特质] 词表Cold Hearted
+Compassionate,慈悲为怀,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Contagious,具传染性,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Cool-headed,头脑冷静,src/data/gold/lifepaths/roden.json,[特质] 同Cool Headed
+Drop Dead Gorgeous,美艳绝伦,src/data/gold/lifepaths/man.json,[特质] 同Drop-dead Gorgeous
+Dumb,愚笨,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Efficient,高效,src/data/wizard/lifepaths.json,[特质] “-wise”译“通晓”
+Faith In Dead Gods,信奉逝去诸神,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Flee From Battle,临阵脱逃,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Fragrant,芬芳,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Fretful,焦躁不安,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Friendly Face,友善面孔,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Handicapped,残障,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Hoarder,囤积癖,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Independent,独立,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Industrious,勤劳,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Intense,炽烈,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Intimidating,令人生畏,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Isoteric,玄奥,src/data/gold/lifepaths/man.json,[特质] 原文拼写误，同Esoteric
+Keen Sense Of Taste,敏锐味觉,src/data/gold/lifepaths/roden.json,[特质] 同Keen Taste
+Lugubrious,悲戚,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Many-colored Hands,五彩双手,src/data/gold/lifepaths/man.json,[特质] 染工手上染色
+Meek,温驯,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Nauseous,恶心反胃,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Non-confrontational,避免冲突,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Obsequious,奴颜婢膝,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Overbearing Loony,跋扈疯子,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Pecunious,富足,src/data/gold/lifepaths/man.json,[特质] 与囊中羞涩相对
+Philosophical,富于哲思,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Portly,富态,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Pragmatic,讲求实际,src/data/gold/lifepaths/man.json,[特质] 与务实(Practical)区分
+Problem With Authority,抗拒权威,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Professionally Diligent,敬业勤勉,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Reclusive,离群索居,src/data/gold/lifepaths/wolf.json,[特质] “-wise”译“通晓”
+Ruthless,冷酷无情,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Scurvy,坏血病,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Skulking,躲躲藏藏,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Smart,聪明,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Spooky,阴森,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Steady Hands,稳手,src/data/gold/lifepaths/man.json,[特质] “-wise”译“通晓”
+Stern,严厉,src/data/gold/lifepaths/elf.json,[特质] 词表
+Sweet-tooth,嗜甜,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Thick-skinned,脸皮厚,src/data/gold/lifepaths/roden.json,[特质] 同Thick Skin
+Tinker,爱捣鼓,src/data/wizard/lifepaths.json,[特质] 词表Tinkerer特质译名
+Two-faced,两面派,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+Weird,怪异,src/data/gold/lifepaths/roden.json,[特质] 同Wierd
+Wise,睿智,src/data/gold/lifepaths/roden.json,[特质] “-wise”译“通晓”
+College,魔法学院,src/lib/data/wizard.rb,[出路] 同魔法学院背景
+Death,死亡邪教,src/lib/data/wizard.rb,[出路] 同死亡邪教背景
+character burner (this app),角色燃造器,src/views/index.erb; src/views/partials/help_zh.erb,[界面] 本工具名称；术语表中 Character Burner 指书中章节《角色燃造》，此处指网页工具
+Physical / Mental / Either (stat points),身体 / 心智 / 任意,src/views/partials/main.erb,[界面] 属性点池；沿用术语表“身体属性池/心智属性池”，未用 Physical→体能
+P / M / P/M (lifepath stat bonus),身 / 心 / 身/心,src/public/js/burning-classes.js,[界面] 人生历程属性加值缩写
+General (skill points),通用,src/views/partials/main.erb; src/public/js/burning-classes.js,[界面] 通用技能点
+Su / Li / Mi / Se / Tr / Mo (PTGS),皮 / 轻 / 中 / 重 / 创 / 致,src/views/partials/main.erb; src/lib/pdf.rb,[界面] 伤势等级单字缩写，取自术语表皮外伤/轻伤/中度伤/重伤/创伤/致命伤
+open-ended,开放,src/public/js/burning-classes.js,[界面] 魔法技能备注：骰子开放
+rps (resource points),资源点,src/views/partials/main.erb,[界面] 术语表 resource points
+Immediate family / Other family / Romantic / Forbidden / Hateful or Rivals,直系亲属 / 其他亲属 / 恋人 / 禁忌 / 仇恨或对头,src/views/partials/main.erb,[界面] 关系修正；与 FVTT 汉化保持一致
+Minor / Significant / Powerful (relationship),次要 / 重要 / 强力,src/views/partials/main.erb,[界面] 关系影响力
+Weapon Of Choice,惯用武器,src/views/partials/choose_weapon_of_choice.erb,[技能占位] 人生历程中的“自选武器”占位技能
+Dark Elf,暗黑精灵,src/views/partials/help_zh.erb; src/data/dark_elf,[族裔] 术语表无此条；与数据中的译名统一
+Wizards (Wizard Burner),巫师,src/views/partials/help_zh.erb,[资料名] 指《巫师燃造》扩展
+Monster Burner,《怪物燃造》,src/views/partials/help_zh.erb,[书名]
+Taint (short for Ancestral Taint on PDF),先祖之秽,src/lib/pdf.rb,[PDF] 原版因格子太窄缩写为 Taint；中文无需缩写
+(trait summary note),特质摘要，非规则原文,src/lib/pdf.rb,[PDF] 附页说明：特质说明为原创中文摘要
+Lamentations,挽歌,src/public/js/burning.js,[界面问题] 精灵悲怆问题中的 Lamentations
+Mask-Bearer,持面具者,src/public/js/burning.js,[界面问题] 贪婪问题中的人生历程名（数据中写作 Mask Bearer）

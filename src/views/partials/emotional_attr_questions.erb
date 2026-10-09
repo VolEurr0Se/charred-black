@@ -1,9 +1,9 @@
 <div class='modal-header'>
-  <h3 class='modal-title'>Questions Affecting {{attributeName}}</h3>
+  <h3 class='modal-title'><%= t(%q{Questions Affecting {{attributeName}}}) %></h3>
 </div>
 <div class='modal-body'>
   <p>
-    The answers to the following questions affect your character's starting {{attributeName}} value:
+    <%= t(%q{The answers to the following questions affect your character's starting {{attributeName}} value:}) %>
   </p>
   <div class='container'>
     <div class='row' ng-repeat='q in questions'>
@@ -11,11 +11,11 @@
       <br ng-show='!q.computed || displayEmotionalMath'>
       <!-- .col-md-5{ :class => "text-muted"} -->
       <div class='col-md-5 text-muted' ng-show='q.computed &amp;&amp; displayEmotionalMath'>
-        {{q.question}} (Computed value is {{formatModifier(q.compute())}} {{attributeName}})
+        <%= t(%q{{{q.question}} (Computed value is {{formatModifier(q.compute())}} {{attributeName}})}) %>
       </div>
       <div class='col-md-5' ng-hide='q.computed'>
-        {{q.question}}
-        <span ng-show='displayEmotionalMath'>{{q.math_label}}</span>
+        {{q.question | tr}}
+        <span ng-show='displayEmotionalMath'>{{q.math_label | tr}}</span>
       </div>
       <div class='col-md-1' ng-hide='q.computed'>
         <input ng-model='q.answer' type='checkbox'>
@@ -24,6 +24,6 @@
   </div>
 </div>
 <div class='modal-footer'>
-  <button class='btn btn-primary' ng-click='ok()'>OK</button>
-  <button class='btn btn-warning' ng-click='cancel()'>Cancel</button>
+  <button class='btn btn-primary' ng-click='ok()'><%= t(%q{OK}) %></button>
+  <button class='btn btn-warning' ng-click='cancel()'><%= t(%q{Cancel}) %></button>
 </div>
