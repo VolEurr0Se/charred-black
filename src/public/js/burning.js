@@ -1387,9 +1387,11 @@ function BurningCtrl($scope, $http, $modal, $timeout, settings, appropriateWeapo
     return chardata;
   }
 
-  $scope.makeCharsheetForCurrentCharacter = function(){
+  // format: 'htm'（网页角色卡）或 'docx'（Word 角色卡）
+  $scope.makeCharsheetForCurrentCharacter = function(format){
+    format = (format == 'docx') ? 'docx' : 'htm';
     var json = angular.toJson($scope.convertCurrentCharacterToStructForCharSheet(), true);
-    $http.post("/charsheet", json).
+    $http.post("/charsheet/" + format, json).
       success(function(data,status,headers,config){
         console.log("huzzah, making charsheet succeeded. File URL: " + data);
         var frame = document.getElementById("downloadframe");

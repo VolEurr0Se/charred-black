@@ -7,7 +7,7 @@ require 'sinatra/json'
 require 'json'
 
 require_relative 'lib/cache'
-require_relative 'lib/pdf'
+require_relative 'lib/sheet_export'
 require_relative 'lib/data'
 require_relative 'lib/i18n'
 require 'erb'
@@ -20,6 +20,9 @@ CACHE = Mu::Cache.new :max_size => 128, :max_time => 30.0
 DATA = Charred::Data.new.data
 I18N = Charred::I18n.new(ENV['CHARRED_LOCALE'] || 'zh-CN')
 I18N_JS = I18N.to_js
+# 静态资源版本号：取 public/ 下文件最新修改时间。用于给 JS/CSS 加 ?v=，避免浏览器沿用旧缓存。
+ASSET_VERSION = Dir.glob(File.join(__dir__, 'public', '**', '*')).map { |f| File.mtime(f).to_i }.max.to_s
+set :static_cache_control, [:public, :no_cache]
 
 helpers do
   def logger
@@ -110,14 +113,24 @@ get '/resources/:stock' do
   end
 end
 
-post '/charsheet' do
+# 导出角色卡：format=htm（网页，可直接打印）或 format=docx（Word）
+EXPORT_FORMATS = {
+  'htm'  => 'text/html; charset=utf-8',
+  'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+}.freeze
+
+# 新前端调用 /charsheet/htm 或 /charsheet/docx；保留 /charsheet?format=… 以兼容旧页面
+post %r{/charsheet(?:/(htm|docx))?} do
+  requested = params['captures'] && params['captures'].first
+  requested ||= params['format']
+  format = EXPORT_FORMATS.key?(requested) ? requested : 'htm'
   request.body.rewind
   raw = request.body.readpartial(16 * 1024)
   data = JSON.parse(raw)
   key = "char-#{Time.now.strftime('%Y%m%d%H%M%S%L')}-#{rand(1...10000)}"
   CACHE.store key, data
 
-  download_url(key, "#{data['name']} #{t('Character Sheet')}.pdf")
+  download_url(key, "#{data['name']} #{t('Character Sheet')}.#{format}")
 end
 
 post '/upload_charfile' do
@@ -136,18 +149,19 @@ post '/download_charfile' do
 end
 
 get '/get_file' do
-  data = nil
-  if params['download_name'].match(/\.pdf$/)
-    content_type 'application/pdf'
-    data = CACHE.delete(params['file'])
-    if data
-      cs = CharSheet.new(data)
-      data = cs.render(logger, DATA)
-    end
+  name = params['download_name'].to_s
+  ext = File.extname(name).delete('.')
+  data = CACHE.delete(params['file'])
+  halt 404, t('This download link has expired. Please export again.') if data.nil?
+
+  if EXPORT_FORMATS.key?(ext)
+    content_type EXPORT_FORMATS[ext]
+    sheet = SheetExport.new(data, I18N, DATA)
+    body_data = ext == 'docx' ? sheet.to_docx : sheet.to_html
   else
     content_type 'application/octet-stream'
-    data = JSON.dump CACHE.delete(params['file'])
+    body_data = JSON.dump(data)
   end
-  attachment_utf8 params['download_name'].to_s
-  data
+  attachment_utf8 name
+  body_data
 end

@@ -1,6 +1,6 @@
 # Charred Black
 
-> **中文版**：本分支已完整汉化（界面、游戏数据、PDF）。部署与维护说明见 [DEPLOY_zh-CN.md](DEPLOY_zh-CN.md)，待审核译名见 `pending_terms.csv`。
+> **中文版**：本分支已完整汉化（界面、游戏数据、导出的角色卡）。角色卡导出为 `.htm` 或 Word `.docx`，不再提供 PDF。部署与维护说明见 [DEPLOY_zh-CN.md](DEPLOY_zh-CN.md)，待审核译名见 `pending_terms.csv`。
 
 The unofficial, online, Burning Wheel Gold (+Codex) character burner. Adapted from [Charred](https://charred.herokuapp.com/).
 
@@ -8,7 +8,7 @@ The unofficial, online, Burning Wheel Gold (+Codex) character burner. Adapted fr
 
 * `Dockerfile` and `Dockerfile.dev` - Container definition files. The dev container has automated reloading if you mount the container's filesystem to the host machine. If you are unfamiliar with Docker, this app uses Sinatra and you can _probably_ get by with a bundle install and `ruby ./src/app.rb`.
 * `src/data` - Binaries and data files for lifepaths live here, see `dark_elf` and `wizard` directory for well-defined examples
-* `src/lib` - Ruby scripts for caching, PDF generation, and data loading
+* `src/lib` - Ruby scripts for caching, character sheet export (.htm / .docx), i18n, and data loading
 * `src/public` - Javascript and CSS
 * `src/views` - HTML templates
 * `src/app.rb` - The webapp, uses Sinatra

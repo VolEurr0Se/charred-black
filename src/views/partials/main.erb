@@ -20,8 +20,12 @@
         <div class='container'>
           <div class='row'>
             <div class='col-md-3'>
-              <a href='' ng-click='makeCharsheetForCurrentCharacter()'>
-                <%= t(%q{Create PDF Character Sheet}) %>
+              <a href='' ng-click="makeCharsheetForCurrentCharacter('htm')">
+                <%= t(%q{Export Character Sheet (.htm)}) %>
+              </a>
+              |
+              <a href='' ng-click="makeCharsheetForCurrentCharacter('docx')">
+                <%= t(%q{Word (.docx)}) %>
               </a>
             </div>
             <div class='col-md-2'>

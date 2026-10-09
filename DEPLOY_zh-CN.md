@@ -2,7 +2,8 @@
 
 Charred Black 是《燃烧之轮 黄金版》（Burning Wheel Gold）的非官方在线角色燃造器。本分支在上游的基础上完成了汉化：
 
-- 网页界面、游戏数据（背景、人生历程、技能、特质、资源）和导出的 PDF 角色卡都显示中文。
+- 网页界面、游戏数据（背景、人生历程、技能、特质、资源）和导出的角色卡都显示中文。
+- 角色卡可导出为网页（`.htm`，浏览器打开即可查看、打印）或 Word（`.docx`，可继续编辑）。原版的 PDF 导出已移除。
 - 内部数据仍是英文。汉化版导出的 `.char` 能被上游英文版读入，上游的 `.char` 也能被汉化版读入。
 - 部署方式：Docker 容器，监听端口 **7878**。
 
@@ -177,7 +178,7 @@ server {
         proxy_set_header   X-Real-IP         $remote_addr;
         proxy_set_header   X-Forwarded-For   $proxy_add_x_forwarded_for;
         proxy_set_header   X-Forwarded-Proto $scheme;
-        proxy_read_timeout 60s;               # 生成 PDF 通常 1 秒内完成
+        proxy_read_timeout 60s;               # 生成角色卡通常不到 1 秒
     }
 }
 ```
@@ -232,7 +233,7 @@ server {
 | --- | --- |
 | `ui.json` | 界面文字（模板、前端提示、属性问题） |
 | `terms.json` | 游戏数据名称与人生历程要求文字 |
-| `trait_summaries.json` | 特质效果的**中文摘要**（为原创简述，并非规则书原文译文；PDF 附页有标注） |
+| `trait_summaries.json` | 特质效果的**中文摘要**（为原创简述，并非规则书原文译文；导出的角色卡中有标注） |
 
 **回退规则**
 
@@ -250,16 +251,17 @@ server {
 | --- | --- |
 | `python3 tools/i18n_check.py` | 检查覆盖率 |
 | `python3 tools/i18n_extract.py` | 导出全部待译字符串 |
-| `cd src && ruby ../tools/render_sample_pdf.rb` | 生成示例 PDF，检查排版 |
+| `cd src && ruby ../tools/render_sample_export.rb` | 生成示例 `.htm` 与 `.docx` 角色卡，检查排版 |
 
-**PDF**
+**导出角色卡**
 
-- 中文使用 Noto Sans SC（SIL OFL 1.1，许可证见 `src/data/fonts/OFL-NotoSansSC.txt`），以子集方式嵌入。
-- 背景模板 `src/data/gold_zh.pdf` 为中文版角色卡，版面与原版一致；缺失时自动回退到英文模板 `gold.pdf`。
+- 由 `src/lib/sheet_export.rb` 生成，只用 Ruby 标准库（`.docx` 由内置的小型 ZIP 打包器生成），不需要额外的 gem 或字体文件。
+- `.htm` 为单文件网页，样式内嵌，可直接打印；`.docx` 使用“微软雅黑”作为中文字体，未安装时 Word/WPS 会自动替换为系统中文字体。
+- 两种格式内容相同：角色索引、信念与本能填写栏、属性（含资质）、特性、身体承受度灰阶表、技能、特质（附中文效果摘要）、资源、特性问题。
 
 **切回英文**
 
-把环境变量 `CHARRED_LOCALE` 改为任意不存在的语言（如 `en`），页面与 PDF 即回退为英文。
+把环境变量 `CHARRED_LOCALE` 改为任意不存在的语言（如 `en`），页面与导出的角色卡即回退为英文。
 
 ---
 
@@ -283,19 +285,17 @@ RUN bundle config --global mirror.https://rubygems.org https://gems.ruby-china.c
 
 用 `sudo ss -ltnp | grep 7878` 查看占用进程。也可以把 `docker-compose.yml` 中的映射改成 `"8080:7878"`：左边是宿主机端口，右边保持 7878 不变。
 
-### Q3. 下载的 PDF / .char 文件名是 `character.pdf`，而不是“姓名 角色卡.pdf”
+### Q3. 下载的角色卡或 .char 文件名是 `character.htm` 之类，而不是“姓名 角色卡.htm”
 
 服务器同时发送了 UTF-8 中文文件名（`filename*`）和 ASCII 备用名。个别老旧浏览器或下载工具只认后者，属于正常现象，重命名即可。
 
-### Q4. PDF 里中文显示为方框，或生成 PDF 报错
+### Q4. 打开 .htm 文件是乱码
 
-确认镜像里有 `src/data/fonts/NotoSansSC-Regular.ttf`（约 10 MB），可用 `docker compose exec charred ls -l data/fonts` 查看。
+文件本身是 UTF-8 编码并在页面中声明了编码，用现代浏览器打开即可。如果用记事本等编辑器另存过，可能被改成了其他编码，重新导出即可。
 
-如果 clone 时启用了 Git LFS 过滤，或文件被截断，就会出现这个问题。重新 clone 后再构建即可。
+### Q5. .docx 里的字体和网页不一样
 
-### Q5. 生成的 PDF 有多大？
-
-一般在 1 MB 以内，主要是背景模板。中文字体按子集嵌入，只增加实际用到的字形，不会把 10 MB 的字体整个塞进 PDF。
+`.docx` 指定的中文字体是“微软雅黑”。在 macOS、Linux 或 WPS 中如果没有这个字体，会自动换成系统自带的中文字体，排版内容不受影响。也可以在 Word 里全选后自行换字体。
 
 ### Q6. 汉化版的 `.char` 能给用英文版的朋友用吗？
 
@@ -309,7 +309,7 @@ RUN bundle config --global mirror.https://rubygems.org https://gems.ruby-china.c
 
 ### Q8. 能否多实例 / 负载均衡？
 
-不建议。PDF 和 `.char` 的下载依赖进程内存中的临时缓存：提交与下载必须落在同一个进程上。单实例完全够用。
+不建议。角色卡和 `.char` 的下载依赖进程内存中的临时缓存：提交与下载必须落在同一个进程上。单实例完全够用。
 
 ### Q9. 如何查看日志、重启、停止？
 
@@ -322,3 +322,9 @@ docker compose down         # 停止并删除容器（不影响镜像与代码�
 ### Q10. 容器显示 unhealthy
 
 健康检查会访问 `/i18n.js`。先用 `docker compose logs` 查看是否有启动错误：常见原因是对照表 JSON 被手动改坏。可用 `python3 -m json.tool 文件名` 校验 JSON 格式。
+
+### Q11. 点“Word（.docx）”下载到的却是 .htm
+
+这是浏览器沿用了旧版 `burning.js` 缓存：旧脚本不会把格式传给服务器，服务器只能默认导出网页版。
+
+现在页面会给脚本和样式加版本号（`?v=…`），服务器也要求浏览器每次重新验证静态文件，更新部署后不会再出现这个问题。如果仍遇到，按 Ctrl+F5（Mac 为 Cmd+Shift+R）强制刷新页面即可。

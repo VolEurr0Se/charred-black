@@ -1526,7 +1526,7 @@ character burner (this app),角色燃造器,src/views/index.erb; src/views/parti
 Physical / Mental / Either (stat points),身体 / 心智 / 任意,src/views/partials/main.erb,[界面] 属性点池；沿用术语表“身体属性池/心智属性池”，未用 Physical→体能
 P / M / P/M (lifepath stat bonus),身 / 心 / 身/心,src/public/js/burning-classes.js,[界面] 人生历程属性加值缩写
 General (skill points),通用,src/views/partials/main.erb; src/public/js/burning-classes.js,[界面] 通用技能点
-Su / Li / Mi / Se / Tr / Mo (PTGS),皮 / 轻 / 中 / 重 / 创 / 致,src/views/partials/main.erb; src/lib/pdf.rb,[界面] 伤势等级单字缩写，取自术语表皮外伤/轻伤/中度伤/重伤/创伤/致命伤
+Su / Li / Mi / Se / Tr / Mo (PTGS),皮 / 轻 / 中 / 重 / 创 / 致,src/views/partials/main.erb; src/lib/sheet_export.rb,[界面] 伤势等级单字缩写，取自术语表皮外伤/轻伤/中度伤/重伤/创伤/致命伤
 open-ended,开放,src/public/js/burning-classes.js,[界面] 魔法技能备注：骰子开放
 rps (resource points),资源点,src/views/partials/main.erb,[界面] 术语表 resource points
 Immediate family / Other family / Romantic / Forbidden / Hateful or Rivals,直系亲属 / 其他亲属 / 恋人 / 禁忌 / 仇恨或对头,src/views/partials/main.erb,[界面] 关系修正；与 FVTT 汉化保持一致
@@ -1535,7 +1535,5 @@ Weapon Of Choice,惯用武器,src/views/partials/choose_weapon_of_choice.erb,[�
 Dark Elf,暗黑精灵,src/views/partials/help_zh.erb; src/data/dark_elf,[族裔] 术语表无此条；与数据中的译名统一
 Wizards (Wizard Burner),巫师,src/views/partials/help_zh.erb,[资料名] 指《巫师燃造》扩展
 Monster Burner,《怪物燃造》,src/views/partials/help_zh.erb,[书名]
-Taint (short for Ancestral Taint on PDF),先祖之秽,src/lib/pdf.rb,[PDF] 原版因格子太窄缩写为 Taint；中文无需缩写
-(trait summary note),特质摘要，非规则原文,src/lib/pdf.rb,[PDF] 附页说明：特质说明为原创中文摘要
 Lamentations,挽歌,src/public/js/burning.js,[界面问题] 精灵悲怆问题中的 Lamentations
 Mask-Bearer,持面具者,src/public/js/burning.js,[界面问题] 贪婪问题中的人生历程名（数据中写作 Mask Bearer）
