@@ -1,17 +1,16 @@
 <div class='modal-header'>
-  <h3 class='modal-title'>Choose a Weapon</h3>
+  <h3 class='modal-title'><%= t(%q{Choose a Weapon}) %></h3>
 </div>
 <div class='modal-body'>
   <p>
-    The lifepath '{{lifepathName}}' contains the Weapon Of Choice skill, which is a placeholder for a
-    weapon that makes sense for '{{lifepathName}}' to have in your campaign and that fits with the character.
+    <%= t(%q{The lifepath '{{lifepathName}}' contains the Weapon Of Choice skill, which is a placeholder for a weapon that makes sense for '{{lifepathName}}' to have in your campaign and that fits with the character.}) %>
   </p>
   <p>
-    Please choose the weapon:
+    <%= t(%q{Please choose the weapon:}) %>
   </p>
-  <select ng-model='chosen[0]' ng-options='i for i in weaponSkillsNames()'></select>
+  <select ng-model='chosen[0]' ng-options='i as (i | tr) for i in weaponSkillsNames()'></select>
 </div>
 <div class='modal-footer'>
-  <button class='btn btn-primary' ng-click='ok()'>OK</button>
-  <button class='btn btn-warning' ng-click='cancel()'>Cancel</button>
+  <button class='btn btn-primary' ng-click='ok()'><%= t(%q{OK}) %></button>
+  <button class='btn btn-warning' ng-click='cancel()'><%= t(%q{Cancel}) %></button>
 </div>

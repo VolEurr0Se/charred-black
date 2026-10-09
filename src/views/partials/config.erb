@@ -2,11 +2,11 @@
   <div class='row'>
     <div class='col-md-8'>
       <input ng-model='enforceLifepathReqts' type='checkbox'>
-      Enforce lifepath requirements
+      <%= t(%q{Enforce lifepath requirements}) %>
     </div>
     <div class='col-md-8'>
       <input ng-model='enforcePointLimits' type='checkbox'>
-      Enforce point limits (stat points, skill points, trait points, etc.)
+      <%= t(%q{Enforce point limits (stat points, skill points, trait points, etc.)}) %>
     </div>
   </div>
   <!-- .row -->
@@ -18,21 +18,21 @@
   </div>
   <div class='row'>
     <div class='col-md-3'>
-      Modify Appropriate Weapons:
+      <%= t(%q{Modify Appropriate Weapons:}) %>
     </div>
     <div class='col-md-2'>
-      <select class='form-control' ng-model='currentAppropriateWeaponLifepath' ng-options='s for s in hashKeys(appropriateWeapons)'></select>
+      <select class='form-control' ng-model='currentAppropriateWeaponLifepath' ng-options='s as (s | tr) for s in hashKeys(appropriateWeapons)'></select>
     </div>
     <div class='col-md-1'>
-      <a href='' ng-click='editAppropriateWeapons()'>Edit</a>
+      <a href='' ng-click='editAppropriateWeapons()'><%= t(%q{Edit}) %></a>
     </div>
     <div class='col-md-1'>
-      <a href='' ng-click='deleteAppropriateWeapons()'>Delete</a>
+      <a href='' ng-click='deleteAppropriateWeapons()'><%= t(%q{Delete}) %></a>
     </div>
   </div>
   <div class='row'>
     <div class='col-md-2'>
-      <button class='btn btn-primary' ng-click='applySettings()'>Apply</button>
+      <button class='btn btn-primary' ng-click='applySettings()'><%= t(%q{Apply}) %></button>
     </div>
   </div>
 </div>

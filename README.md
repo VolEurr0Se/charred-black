@@ -1,5 +1,7 @@
 # Charred Black
 
+> **中文版**：本分支已完整汉化（界面、游戏数据、PDF）。部署与维护说明见 [DEPLOY_zh-CN.md](DEPLOY_zh-CN.md)，待审核译名见 `pending_terms.csv`。
+
 The unofficial, online, Burning Wheel Gold (+Codex) character burner. Adapted from [Charred](https://charred.herokuapp.com/).
 
 ## Project Structure

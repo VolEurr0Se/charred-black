@@ -1,0 +1,12 @@
+# Charred Black 中文版：docker compose up -d --build
+services:
+  charred:
+    build: .
+    image: charred-black-zh:latest
+    container_name: charred-black-zh
+    ports:
+      # 只给反向代理使用时可改为 "127.0.0.1:7878:7878"
+      - "7878:7878"
+    environment:
+      CHARRED_LOCALE: zh-CN
+    restart: unless-stopped

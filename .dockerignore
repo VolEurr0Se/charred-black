@@ -1,0 +1,7 @@
+.git
+.github
+*.md
+!README.md
+tools/fixtures/*.pdf
+sample_charsheet.pdf
+.DS_Store

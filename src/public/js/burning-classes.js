@@ -157,18 +157,18 @@ function DisplayLifepath(setting, name, jsonLifepath){
   }
 
   this.displayLeads = function(){
-    return listToStr(this.leads);
+    return trList(this.leads);
   }
 
   this.displaySkills = function(){
     s = "";
     if ( this.lifepathSkillPts > 0 ){
-      s += this.lifepathSkillPts + " pts: " + listToStr(this.skills);
+      s += trf("{n} pts: {list}", {n: this.lifepathSkillPts, list: trList(this.skills)});
     }
     if ( this.generalSkillPts > 0 ){
       if ( s.length > 0 )
         s += "; ";
-      s += this.generalSkillPts + " pts: General";
+      s += trf("{n} pts: General", {n: this.generalSkillPts});
     }
     return s;
   }
@@ -177,7 +177,7 @@ function DisplayLifepath(setting, name, jsonLifepath){
     var l = this.traits;
     if ( l.length == 0 )
       l = ['-'];
-    return listToStr(l);
+    return trList(l);
   }
 
   this.displayStat = function(){
@@ -193,17 +193,17 @@ function DisplayLifepath(setting, name, jsonLifepath){
       if(stat[1] == 'p'){
         if (stat[0] >= 0)
           s += "+" 
-        s += stat[0] + " P";
+        s += stat[0] + " " + tr("P");
       }
       else if (stat[1] == 'm'){
         if (stat[0] >= 0)
           s += "+" 
-        s += stat[0] + " M";
+        s += stat[0] + " " + tr("M");
       }
       else if (stat[1] == 'pm' || stat[1] == 'mp'){
         if (stat[0] >= 0)
           s += "+" 
-        s += stat[0] + " P/M";
+        s += stat[0] + " " + tr("P/M");
       }
     }
 
@@ -437,7 +437,7 @@ function DisplaySkill(name, skillsdata){
     for(var i = 0; i < this.roots.length; i++){
       if ( i > 0 )
         s += "/";
-      s += this.roots[i];
+      s += tr(this.roots[i]);
     }
     return s;
   }
@@ -463,7 +463,7 @@ function DisplaySkill(name, skillsdata){
 
   this.notes = function(){
     if ( this.isMagic ){
-      return "open-ended";
+      return tr("open-ended");
     }
     else {
       return "";
@@ -523,16 +523,17 @@ function DisplayTrait(name, traitdata){
 
   this.typeForDisplay = function(){
     if(this.type == "character")
-      return "character"
+      return tr("character")
     else if (this.type == "call_on")
-      return "call-on"
+      return tr("call-on")
     else if (this.type == "die")
-      return "die"
+      return tr("die")
     else
       return "?"
   }
 
-  this.nameForListDisplay = this.name + " ("+this.typeForDisplay()+", "+ this.cost + (this.cost == 1 ? "pt" : "pts") + ")";
+  this.hasSummary = trHasTraitSummary(this.name);
+  this.nameForListDisplay = trf("{name} ({type}, {cost})", {name: tr(this.name), type: this.typeForDisplay(), cost: trf(this.cost == 1 ? "{n} pt" : "{n} pts", {n: this.cost})});
 
 }
 
@@ -572,18 +573,18 @@ function DisplayRelationship(desc, importance, isImmedFam, isOtherFam, isRomanti
     this.cost = 0;
 
   this.forDisplay = function(){
-    var s = this.desc;
-    s += "; " + this.importance
+    var s = tr(this.desc);
+    s += "；" + tr(this.importance)
     if( this.isImmedFam )
-      s += ", immed. fam.";
+      s += "，" + tr("immed. fam.");
     if( this.isOtherFam )
-      s += ", family";
+      s += "，" + tr("family");
     if( this.isRomantic)
-      s += ", romantic";
+      s += "，" + tr("romantic");
     if( this.isForbidden)
-      s += ", forbidden";
+      s += "，" + tr("forbidden");
     if( this.isHateful)
-      s += ", hateful";
+      s += "，" + tr("hateful");
     return s;
   }
 }
@@ -595,7 +596,7 @@ function DisplayGear(desc, cost){
   this.cost = cost;
 
   this.forDisplay = function(){
-    return this.desc;
+    return tr(this.desc);
   }
 }
 /**** End Class DisplayGear ****/
@@ -620,8 +621,8 @@ function DisplayAffiliation(desc, importance){
   }
 
   this.forDisplay = function(){
-    var s = this.desc;
-    s += "; " + this.importance
+    var s = tr(this.desc);
+    s += "；" + tr(this.importance)
     return s;
   }
 }
@@ -647,8 +648,8 @@ function DisplayReputation (desc, importance){
   }
 
   this.forDisplay = function(){
-    var s = this.desc;
-    s += "; " + this.importance
+    var s = tr(this.desc);
+    s += "；" + tr(this.importance)
     return s;
   }
 }

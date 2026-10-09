@@ -1,20 +1,19 @@
 <div class='modal-header'>
-  <h3 class='modal-title'>Apply Stat Pool Penalty</h3>
+  <h3 class='modal-title'><%= t(%q{Apply Stat Pool Penalty}) %></h3>
 </div>
 <div class='modal-body'>
   <p>
-    The lifepath '{{lifepath.name}}' contains a negative stat bonus that may be applied to either
-    the physical or mental pool. Please choose how to apply the penalty:
+    <%= t(%q{The lifepath '{{lifepath.name}}' contains a negative stat bonus that may be applied to either the physical or mental pool. Please choose how to apply the penalty:}) %>
   </p>
-  <strong>Remaining Penalty:</strong>
-  Either: {{unspentAmount}}/{{amount}} pts
+  <strong><%= t(%q{Remaining Penalty:}) %></strong>
+  <%= t(%q{Either: {{unspentAmount}}/{{amount}} pts}) %>
   <br>
   <br>
   <div>
     <div class='container'>
       <div class='row'>
         <div class='col-md-2'>
-          Physical Penalty
+          <%= t(%q{Physical Penalty}) %>
         </div>
         <div class='col-md-3'>
           {{pool.physical}}
@@ -26,7 +25,7 @@
       </div>
       <div class='row'>
         <div class='col-md-2'>
-          Mental Penalty
+          <%= t(%q{Mental Penalty}) %>
         </div>
         <div class='col-md-3'>
           {{pool.mental}}
@@ -40,5 +39,5 @@
   </div>
 </div>
 <div class='modal-footer'>
-  <button class='btn btn-primary' ng-click='ok()'>OK</button>
+  <button class='btn btn-primary' ng-click='ok()'><%= t(%q{OK}) %></button>
 </div>

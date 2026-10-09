@@ -127,3 +127,13 @@ input[readonly] {
   color: #808080;
   font-size: 10px;
 }
+
+/* 汉化：中文字体回退（网页端使用系统字体，PDF 端嵌入 Noto Sans SC 子集） */
+body, .form-control, .btn, select, input {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.navbar-default .navbar-brand {
+  font-family: "Post Mediaeval", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
+}
+/* 中文短链接（修改/移除/添加）不要被窄列拆成竖排 */
+.col-md-1 a, .col-md-1 button { white-space: nowrap; }
