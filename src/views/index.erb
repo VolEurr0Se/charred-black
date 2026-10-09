@@ -2,22 +2,22 @@
 <html lang='zh-CN' ng-app='burning'>
   <head>
     <meta charset='utf-8'>
-    <link href='/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
-    <link href='/css/style.css' rel='stylesheet' type='text/css'>
-    <script src='/js/server_settings.js'></script>
-    <script src='/i18n.js'></script>
-    <script src='/js/angular.min.js'></script>
-    <script src='/js/angular-resource.js'></script>
-    <script src='/js/angular-route.js'></script>
+    <link href='/css/bootstrap.min.css?v=<%= ASSET_VERSION %>' rel='stylesheet' type='text/css'>
+    <link href='/css/style.css?v=<%= ASSET_VERSION %>' rel='stylesheet' type='text/css'>
+    <script src='/js/server_settings.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/i18n.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/angular.min.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/angular-resource.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/angular-route.js?v=<%= ASSET_VERSION %>'></script>
     <!-- %script{ :src => "/js/ui-bootstrap-tpls-0.11.0.min.js" } -->
-    <script src='/js/ui-bootstrap-tpls-0.11.0.js'></script>
-    <script src='/js/burning-util.js'></script>
-    <script src='/js/burning-classes.js'></script>
-    <script src='/js/burning-service.js'></script>
-    <script src='/js/burning-modal.js'></script>
-    <script src='/js/burning-serialize.js'></script>
-    <script src='/js/burning.js'></script>
-    <script src='/js/burning-i18n.js'></script>
+    <script src='/js/ui-bootstrap-tpls-0.11.0.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/burning-util.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/burning-classes.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/burning-service.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/burning-modal.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/burning-serialize.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/burning.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/burning-i18n.js?v=<%= ASSET_VERSION %>'></script>
     <title><%= t(%q{Charred - The Burning Wheel Gold Character Burner}) %></title>
   </head>
   <body>
@@ -41,8 +41,8 @@
       </nav>
       <div ng-view=''></div>
     </div>
-    <script src='/js/jquery-1.10.2.min.js'></script>
-    <script src='/js/bootstrap.min.js'></script>
+    <script src='/js/jquery-1.10.2.min.js?v=<%= ASSET_VERSION %>'></script>
+    <script src='/js/bootstrap.min.js?v=<%= ASSET_VERSION %>'></script>
     <iframe id='downloadframe' name='downloadframe'></iframe>
     <iframe id='uploadiframe' name='uploadiframe' onload='handleIframeLoad("uploadiframe")'></iframe>
     <script>
